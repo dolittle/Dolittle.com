@@ -1,0 +1,16 @@
+{
+  "name": "dolittle.com",
+  "version": "1.0.0",
+  "description": "The website of Dolittle.com",
+  "main": "main.js",
+  "author": "Dolittle",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.17",
+    "extract-loader": "^1.0.2",
+    "file-loader": "^1.1.6",
+    "html-loader": "^0.5.4",
+    "path": "^0.12.7"
+  }
+}
