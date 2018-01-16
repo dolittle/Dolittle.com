@@ -9,13 +9,16 @@
 </head>
 
 <body>
+    <header>
+        <%= require('./Components/navigation.html') %>
+    </header>
     <figure>
         <%= require('./images/dolittle_positiv_vertikal.svg') %>
     </figure>
 
     <h1>Dolittle.com</h1>
-    <%= require('./Components/about/about.html') %>
-    
+    <%= require('./Pages/'+htmlWebpackPlugin.options.filename) %>
+
 </body>
 
 </html>

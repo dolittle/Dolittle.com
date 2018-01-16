@@ -18,6 +18,8 @@ module.exports = [{
     plugins: [
         configParts.plugins.cleanDistFolderAndIndexfile,
         configParts.plugins.buildHtmlIndex,
+        configParts.plugins.buildHtmlAbout,
+        configParts.plugins.buildHtmlConcat,
         configParts.plugins.sassBuilder
     ],
     devServer: {

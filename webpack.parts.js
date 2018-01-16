@@ -12,10 +12,10 @@ module.exports = {
     loaders: {
         htmlLoader: {
             test: /\.html$/,
-            exclude: /index.html/,
+            exclude: /layout.html/,
             use: [
                 {
-                    loader: 'html-loader',
+                    loader: 'nested-html-loader',
                     options: {
                         attrs: ["img:src", "link:href"],
                         interpolate: true,
@@ -53,7 +53,16 @@ module.exports = {
     plugins: {
         cleanDistFolderAndIndexfile: new CleanWebpackPlugin(["dist/*"]),
         buildHtmlIndex: new HtmlWebpackPlugin({
-            template: "./src/index.html"
+            template: "./src/layout.html",
+            filename:'index.html'
+        }),
+        buildHtmlAbout: new HtmlWebpackPlugin({
+            template: "./src/layout.html",
+            filename:'about/index.html'
+        }),
+        buildHtmlConcat: new HtmlWebpackPlugin({
+            template: "./src/layout.html",
+            filename:'contact/index.html'
         }),
         sassBuilder: sassBuilder
     }
