@@ -1,0 +1,41 @@
+.header-content {
+    @extend %fixed-width-at-desktop;
+    @extend %flex-container;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+    @include media-bp-min(desktop) {
+        align-items: flex-end;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5rem 0 3rem;
+    }
+    .site-logo {
+        display: block;
+        max-width: 100%;
+        width: 15rem;
+        @include media-bp-min(desktop) {
+            width: 21.875rem;
+        }
+        svg {
+            max-width: 100%;
+            ;
+        }
+    }
+    nav {
+        text-transform: uppercase;
+        a {
+            color: $color-black;
+            display: inline-block;
+            letter-spacing: 0.02em;
+            line-height: 1em;
+            padding: 0 .7rem;
+            &:not(:first-child) {
+                border-left: 0.0625rem solid $color-black;
+            }
+            &:hover {
+                color: $color-brand-orange;
+            }
+        }
+    }
+}

@@ -13,14 +13,14 @@ module.exports = {
         htmlLoader: {
             test: /\.html$/,
             exclude: /layout.html/,
-            use: [
+            use:
                 {
-                    loader: 'nested-html-loader',
+                    loader: 'html-loader',
                     options: {
                         attrs: ["img:src", "link:href"],
-                        interpolate: true,
+                        interpolate: true
                     }
-                }],
+                }
         },
         sassLoader: {
             test: /\.scss$/,
@@ -54,15 +54,15 @@ module.exports = {
         cleanDistFolderAndIndexfile: new CleanWebpackPlugin(["dist/*"]),
         buildHtmlIndex: new HtmlWebpackPlugin({
             template: "./src/layout.html",
-            filename:'index.html'
+            filename: 'index.html'
         }),
         buildHtmlAbout: new HtmlWebpackPlugin({
             template: "./src/layout.html",
-            filename:'about/index.html'
+            filename: 'about/index.html'
         }),
         buildHtmlConcat: new HtmlWebpackPlugin({
             template: "./src/layout.html",
-            filename:'contact/index.html'
+            filename: 'contact/index.html'
         }),
         sassBuilder: sassBuilder
     }
