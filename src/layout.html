@@ -10,11 +10,15 @@
 
 <body>
     <header class="main-header">
-        <%= require('./Components/Navigation/navigation.html') %>
+        ${require('./Components/Navigation/markup.html')}
     </header>
-    <h1>Dolittle.com</h1>
-    <%= require('./Pages/'+htmlWebpackPlugin.options.filename) %>
-
+    <main>
+        ${require('./Components/SplashSection/markup.html')} ${require('./Components/USP/markup.html')} ${require('./Components/Howitworks/markup.html')}
+        ${require('./Components/about/markup.html')} ${require('./Components/contact/markup.html')}
+    </main>
+    <footer class="main-footer">
+        ${require('./Components/Footer/markup.html')}
+    </footer>
 </body>
 
 </html>

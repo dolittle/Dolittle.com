@@ -1131,8 +1131,8 @@ dns-txt@^2.0.2:
     buffer-indexof "^1.0.0"
 
 "dolittle.styles@git+ssh://git@github.com:dolittle/Dolittle.styles.git":
-  version "0.6.0"
-  resolved "git+ssh://git@github.com:dolittle/Dolittle.styles.git#d1ef13513149591b91733dd99e14a183e43b21ab"
+  version "0.6.1"
+  resolved "git+ssh://git@github.com:dolittle/Dolittle.styles.git#0f15c962242bd769ec22583691a2a40ac9a70ef5"
 
 dom-converter@~0.1:
   version "0.1.4"

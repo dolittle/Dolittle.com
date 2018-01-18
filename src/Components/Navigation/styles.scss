@@ -4,26 +4,36 @@
     align-items: center;
     flex-direction: column;
     padding-top: 1rem;
-    @include media-bp-min(desktop) {
+    @include media-bp-min(tablet) {
         align-items: flex-end;
         flex-direction: row;
         justify-content: space-between;
-        padding: 5rem 0 3rem;
+        padding: 5rem $grid-gutter 3rem;
     }
     .site-logo {
         display: block;
         max-width: 100%;
+        transition: .5s width;
         width: 15rem;
-        @include media-bp-min(desktop) {
+        @include media-bp-min(tablet) {
+            width: 20rem;
+        }
+        @include media-bp-min(tablet-landscape) {
             width: 21.875rem;
         }
         svg {
             max-width: 100%;
-            ;
         }
     }
     nav {
         text-transform: uppercase;
+        padding: .5rem 0;
+        @include media-bp-min(tablet) {
+            padding: .5rem 0 1.2rem;
+        }
+        @include media-bp-min(tablet-landscape) {
+            padding: .5rem 0 1.4rem;
+        }
         a {
             color: $color-black;
             display: inline-block;

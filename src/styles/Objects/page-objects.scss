@@ -1,0 +1,31 @@
+header.main-header {
+    @extend %flex-container;
+    @extend %flex-center-horizontal;
+}
+
+;
+.page-section {
+    width: 100%;
+    padding: $grid-gutter;
+    &.orange {
+        background-color: $color-brand-orange;
+        color: $color-white;
+    }
+    &.dark-blue {
+        background-color: $color-brand-dark-blue;
+        color: $color-white;
+    }
+    &.light-blue {
+        background-color: $color-brand-light-blue;
+    }
+    &.yellow {
+        background-color: $color-brand-yellow;
+    }
+    &.light-grey {
+        background-color: $color-light-grey;
+    }
+}
+
+footer.main-footer {
+    border-top: 1px solid $color-medium-grey
+}
