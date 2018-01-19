@@ -1,8 +1,7 @@
 .header-content {
     @extend %fixed-width-at-desktop;
     @extend %flex-container;
-    align-items: center;
-    flex-direction: column;
+    @extend %flex-center-vertical;
     padding-top: 1rem;
     @include media-bp-min(tablet) {
         align-items: flex-end;

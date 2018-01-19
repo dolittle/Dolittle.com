@@ -48,7 +48,16 @@ module.exports = {
                 }
             }
         },
-
+        imageLoader: {
+            test: /\.(png|jpe?g|gif)(\?.*)?$/,
+            use: {
+                loader: 'file-loader',
+                options: {
+                    name: "[name]-[hash].[ext]",
+                    outputPath: "images/"
+                }
+            }
+        }
     },
     plugins: {
         cleanDistFolderAndIndexfile: new CleanWebpackPlugin(["dist/*"]),

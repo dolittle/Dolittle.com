@@ -12,7 +12,8 @@ module.exports = [{
         rules: [
             configParts.loaders.htmlLoader,
             configParts.loaders.sassLoader,
-            configParts.loaders.svgLoader
+            configParts.loaders.svgLoader,
+            configParts.loaders.imageLoader
         ]
     },
     plugins: [
