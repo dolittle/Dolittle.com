@@ -1,0 +1,11 @@
+.large-paragraph {
+    line-height: 1.25em;
+    font-weight: 300;
+    @include media-bp-min(tablet) {
+        font-size: 1.25rem;
+    }
+    @include media-bp-min(desktop) {
+        font-size: 1.5rem;
+        line-height: 1.3em;
+    }
+}

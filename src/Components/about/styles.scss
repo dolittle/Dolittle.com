@@ -1,0 +1,17 @@
+.about-us {
+    @extend %flex-container;
+    @extend %flex-center-horizontal;
+
+    .content {
+        @extend %flex-container;
+        justify-content: flex-end;
+        @extend %fixed-width-at-desktop;
+    }
+    .text-box {
+        flex: 0 1 auto;
+        width: 100%;
+        @include media-bp-min(tablet) {
+            width: 50%;
+        }
+    }
+}

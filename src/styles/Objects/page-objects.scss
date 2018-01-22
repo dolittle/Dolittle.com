@@ -24,6 +24,13 @@ header.main-header {
     &.light-grey {
         background-color: $color-light-grey;
     }
+    &.dark-grey {
+        background-color: $color-dark-grey;
+        color: $color-white;
+        a {
+            color: $color-white;
+        }
+    }
 }
 
 footer.main-footer {

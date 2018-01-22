@@ -1,0 +1,11 @@
+.how-it-works {
+    @extend %flex-container;
+    @extend %flex-center-vertical;
+    padding: 3rem 2rem;
+    .content {
+        @include media-bp-max(desktop) {
+            width: 100%;
+        }
+        @extend %fixed-width-at-desktop-lg;
+    }
+}

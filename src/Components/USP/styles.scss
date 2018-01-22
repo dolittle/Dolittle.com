@@ -1,0 +1,41 @@
+.usp {
+    @extend %flex-container;
+    @extend %flex-two-columns;
+    .usp-box {
+        @extend %flex-container;
+        @extend %flex-center-vertical;
+        padding: 1rem;
+        @include media-bp-min(tablet) {
+            padding: 3rem;
+        }
+        h2 {
+            color: $color-brand-grey;
+            font-size: 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            @include media-bp-min(tablet) {
+                font-size: 2.5rem;
+            }
+            @include media-bp-min(desktop) {
+                font-size: 3.5rem;
+            }
+        }
+        figure {
+            margin-bottom: 1rem;
+            width: 70%;
+            @include media-bp-min(tablet) {
+                width: 60%;
+            }
+            @include media-bp-min(desktop) {
+                width: 40%;
+            }
+        }
+        p {
+            text-align: center;
+            @include media-bp-max(phone) {
+                font-size: .875rem;
+            }
+        }
+    }
+}
