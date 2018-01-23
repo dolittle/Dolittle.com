@@ -22,8 +22,8 @@
         @include media-bp-min(tablet) {
             font-size: 2.5rem;
         }
-        @include media-bp-min(desktop) {
-            font-size: 3.5rem;
+        @include media-bp-min(desktop-xl) {
+            font-size: $font-size-h1;
         }
     }
 }

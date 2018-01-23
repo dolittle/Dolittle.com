@@ -6,7 +6,7 @@ header.main-header {
 ;
 .page-section {
     width: 100%;
-    padding: $grid-gutter;
+    padding: $grid-gutter*2 $grid-gutter;
     &.orange {
         background-color: $color-brand-orange;
         color: $color-white;
