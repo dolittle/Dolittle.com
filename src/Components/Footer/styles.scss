@@ -1,6 +1,18 @@
-.footer-content{
+$footer-content-text-color: #969696 !default;
+.footer-content {
     @extend %flex-container;
     @extend %flex-center-vertical;
-    padding:1rem;
+    padding: 1rem;
     text-align: center;
+    font-size: .875rem;
+    color: $footer-content-text-color;
+    a {
+        color: $footer-content-text-color;
+    }
+    address {
+        font-style: normal;
+    }
+    nav {
+        margin-bottom: 1.5rem;
+    }
 }
