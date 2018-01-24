@@ -13,6 +13,16 @@ $footer-content-text-color: #969696 !default;
         font-style: normal;
     }
     nav {
+        @extend %flex-container;
+        @extend %flex-center-horizontal;
         margin-bottom: 1.5rem;
+        a {
+            border: 1px solid #8a8a8a;
+            display: block;
+            height: 3rem;
+            margin: 1rem;
+            padding: .5rem;
+            width: 3rem;
+        }
     }
 }
