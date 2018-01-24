@@ -1,12 +1,12 @@
 .splash-header {
     @extend %flex-container;
     @extend %flex-center-vertical;
-    // @include media-bp-min(tablet) {
-    //     background-image: url('../images/splash.png');
-    //     background-repeat: no-repeat;
-    //     background-size: cover;
-    //     background-blend-mode: multiply;
-    // }
+    @include media-bp-min(tablet) {
+        background-image: url('../images/splash.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        // background-blend-mode: multiply;
+    }
     .content {
         @extend %fixed-width-at-desktop;
         @include media-bp-min(tablet) {

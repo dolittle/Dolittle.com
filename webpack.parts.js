@@ -50,13 +50,38 @@ module.exports = {
         },
         imageLoader: {
             test: /\.(png|jpe?g|gif)(\?.*)?$/,
-            use: {
+            use: [{
                 loader: 'file-loader',
                 options: {
                     name: "[name]-[hash].[ext]",
                     outputPath: "images/"
                 }
+            },
+            {
+                loader: 'image-webpack-loader',
+                options: {
+                    mozjpeg: {
+                        progressive: true,
+                        quality: 80
+                    },
+                    // optipng.enabled: false will disable optipng
+                    optipng: {
+                        enabled: false,
+                    },
+                    pngquant: {
+                        quality: '65-90',
+                        speed: 4
+                    },
+                    gifsicle: {
+                        interlaced: false,
+                    },
+                    // the webp option will enable WEBP
+                    webp: {
+                        quality: 75
+                    }
+                }
             }
+            ]
         }
     },
     plugins: {
