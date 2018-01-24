@@ -1,5 +1,5 @@
 .header-content {
-    @extend %fixed-width-at-desktop;
+    @extend %fixed-width-at-desktop-lg;
     @extend %flex-container;
     @extend %flex-center-vertical;
     padding-top: 1rem;
