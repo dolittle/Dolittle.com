@@ -29,10 +29,22 @@
                 font-size: 3.5rem;
             }
         }
+        figure {
+            margin-bottom: 1rem;
+            width: 70%;
+            @include media-bp-min(tablet) {
+                width: 60%;
+            }
+            @include media-bp-min(desktop) {
+                width: 40%;
+            }
+        }
         p {
+            border-top: 0.1875rem solid $color-brand-yellow;
             text-align: center;
             color: $color-brand-dark-blue;
             font-size: 1.2rem;
+            padding-top: 1rem;
             @include media-bp-min(tablet) {
                 font-size: 1.3rem;
             }
