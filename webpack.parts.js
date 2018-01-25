@@ -87,16 +87,8 @@ module.exports = {
     plugins: {
         cleanDistFolderAndIndexfile: new CleanWebpackPlugin(["dist/*"]),
         buildHtmlIndex: new HtmlWebpackPlugin({
-            template: "./src/layout.html",
+            template: "./src/index.html",
             filename: 'index.html'
-        }),
-        buildHtmlAbout: new HtmlWebpackPlugin({
-            template: "./src/layout.html",
-            filename: 'about/index.html'
-        }),
-        buildHtmlConcat: new HtmlWebpackPlugin({
-            template: "./src/layout.html",
-            filename: 'contact/index.html'
         }),
         sassBuilder: sassBuilder
     }

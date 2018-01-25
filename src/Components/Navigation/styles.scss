@@ -1,5 +1,4 @@
 .header-content {
-    @extend %fixed-width-at-desktop-lg;
     @extend %flex-container;
     @extend %flex-center-vertical;
     padding-top: 1rem;
@@ -7,7 +6,7 @@
         align-items: flex-end;
         flex-direction: row;
         justify-content: space-between;
-        padding: 5rem $grid-gutter 3rem;
+        padding: 2.5rem $grid-gutter 2rem;
     }
     .site-logo {
         display: block;
@@ -31,7 +30,7 @@
             padding: .5rem 0 1.2rem;
         }
         @include media-bp-min(tablet-landscape) {
-            padding: .5rem 0 1.4rem;
+            padding: .5rem 0 1.3rem;
         }
         a {
             color: $color-black;

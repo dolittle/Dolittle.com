@@ -4,7 +4,9 @@
     @include media-bp-min(tablet) {
         background-image: url('../images/splash.png');
         background-repeat: no-repeat;
+        background-position: center;
         background-size: cover; // background-blend-mode: multiply;
+        padding: $grid-gutter*3 $grid-gutter $grid-gutter*8;
     }
     .content {
         @extend %fixed-width-at-desktop;

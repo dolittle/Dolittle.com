@@ -1,17 +1,32 @@
 .about-us {
+}
+.contact-list {
     @extend %flex-container;
     @extend %flex-center-horizontal;
-
-    .content {
-        @extend %flex-container;
-        justify-content: flex-end;
-        @extend %fixed-width-at-desktop;
+    flex-wrap: wrap;
+    li {
+        flex: 0 1 350px;
+        padding: 2rem;
     }
-    .text-box {
-        flex: 0 1 auto;
-        width: 100%;
-        @include media-bp-min(tablet) {
-            width: 50%;
+    figure {
+        width: 60%;
+        margin: 0 auto;
+        img {
+            border-radius: 50%;
+            border: 0.1875rem solid $color-brand-yellow;
         }
+    }
+    h3 {
+        font-size: 1.25rem;
+        margin-bottom: 0;
+        color: $color-brand-yellow;
+    }
+    strong {
+        font-weight: normal;
+        margin-bottom: 1rem;
+        display: block;
+    }
+    p {
+        font-size: .875rem;
     }
 }

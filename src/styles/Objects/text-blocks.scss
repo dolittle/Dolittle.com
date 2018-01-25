@@ -9,3 +9,35 @@
         line-height: 1.3em;
     }
 }
+
+blockquote {
+    &:before {
+        color: $color-medium-dark-grey;
+        content: open-quote;
+        font-size: 8rem;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+        font-style: italic;
+    }
+    p {
+        display: inline;
+        font-size: 1.3rem;
+        font-style: italic;
+        line-height: 1.5em;
+        @include media-bp-min(tablet) {
+            font-size: 1.8rem;
+        }
+    }
+    .quote-by {
+        display: block;
+        text-align: right;
+        font-size: .8rem;
+        margin-top: 1rem;
+        
+
+        &:before {
+            content: "- ";
+        }
+    }
+}
