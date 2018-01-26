@@ -6,7 +6,7 @@
         @extend %flex-container;
         @extend %flex-center-vertical;
         padding: 1rem;
-        flex: 1 1 11rem;
+        flex: 0 1 11rem;
         @include media-bp-min(tablet) {
             flex-basis: 12rem;
         }
@@ -50,6 +50,9 @@
             }
             @include media-bp-min(desktop) {
                 font-size: 1.5rem;
+            }
+            @include media-bp-min(desktop-xl) {
+                font-size: 2rem;
             }
         }
     }

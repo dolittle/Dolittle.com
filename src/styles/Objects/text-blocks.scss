@@ -11,30 +11,38 @@
 }
 
 blockquote {
-    &:before {
+    padding:2.5rem;
+    position:relative;
+    &:before, &:after {
         color: $color-medium-dark-grey;
         content: open-quote;
-        font-size: 8rem;
-        line-height: 0.1em;
-        margin-right: 0.25em;
-        vertical-align: -0.4em;
+        font-size: 9rem;
         font-style: italic;
+        position: absolute;
+        top:6rem;
+        left:-3rem;
+        display:block;
+    }
+    &:after{
+        content: close-quote;
+        right:3rem;
+        bottom:3rem;
+        top:auto;
+        left:auto;
     }
     p {
-        display: inline;
-        font-size: 1.3rem;
+        font-size: 1.7rem;
         font-style: italic;
         line-height: 1.5em;
+        margin-bottom:.5rem;
         @include media-bp-min(tablet) {
-            font-size: 1.8rem;
+            font-size: 2.5rem;
         }
     }
     .quote-by {
         display: block;
         text-align: right;
-        font-size: .8rem;
-        margin-top: 1rem;
-        
+        font-size: .8rem;    
 
         &:before {
             content: "- ";

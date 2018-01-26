@@ -1,11 +1,15 @@
 .about-us {
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+    }
 }
 .contact-list {
     @extend %flex-container;
     @extend %flex-center-horizontal;
     flex-wrap: wrap;
     li {
-        flex: 0 1 350px;
+        flex: 0 1 22rem;
         padding: 2rem;
     }
     figure {
@@ -20,6 +24,7 @@
         font-size: 1.25rem;
         margin-bottom: 0;
         color: $color-brand-yellow;
+        white-space: nowrap;
     }
     strong {
         font-weight: normal;

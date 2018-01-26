@@ -5,7 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dolittle.com</title>
+    <title>Dolittle.com - Digitalization as a Service</title>
+    <meta name="description" content="Dolittle is a Platform as a Service that helps you remove all the IT fuzz when you build your line-of-business applications."/>
+
+    <meta property="og:image" content="${require('./images/site-quote.png')}" />
+    <meta property="og:url" content="http://www.dolittle.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Dolittle.com - Digitalization as a Service" />
+    <meta property="og:description" content="Dolittle is a Platform as a Service that helps you remove all the IT fuzz when you build your line-of-business applications." />
+
+
+
+    <meta name="apple-mobile-web-app-title" content="Dolittle">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="icon" type="image/png" href="images/favicon_16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/favicon_32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicon_96x96.png" sizes="96x96">
+    <link rel="apple-touch-icon" href="images/favicon_120x120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon_152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/favicon_167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_180x180.png">
+    
+    <link rel="apple-touch-startup-image" href="images/launch_750x1334.png">
+    <link rel="apple-touch-startup-image" sizes="1125x2436" href="images/launch_750x1334.png">
+    <link rel="apple-touch-startup-image" sizes="1242x2208" href="images/launch_1242x2208.png">
+    <link rel="apple-touch-startup-image" sizes="1536x2045" href="images/launch_1536x2045.png">
+    <link rel="apple-touch-startup-image" sizes="1668x2224" href="images/launch_1668x2224.png">
+    <link rel="apple-touch-startup-image" sizes="2048x2732" href="images/launch_2048x2732.png">
+    
+
 </head>
 
 <body>
@@ -13,10 +42,8 @@
         ${require('./Components/Navigation/markup.html')}
     </header>
     <main>
-        ${require('./Components/SplashSection/markup.html')} 
-        ${require('./Components/USP/markup.html')} 
-        ${require('./Components/quote/markup.html')}
-        ${require('./Components/about/markup.html')} 
+        ${require('./Components/SplashSection/markup.html')} ${require('./Components/USP/markup.html')} ${require('./Components/quote/markup.html')}
+        ${require('./Components/about/markup.html')}
     </main>
     <footer class="main-footer">
         ${require('./Components/Footer/markup.html')}

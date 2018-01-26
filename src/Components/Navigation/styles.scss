@@ -6,7 +6,7 @@
         align-items: flex-end;
         flex-direction: row;
         justify-content: space-between;
-        padding: 2.5rem $grid-gutter 2rem;
+        padding: 2.5rem $grid-gutter*3 2rem;
     }
     .site-logo {
         display: block;
