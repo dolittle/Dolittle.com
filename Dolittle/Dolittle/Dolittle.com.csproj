@@ -247,6 +247,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Umbraco.sdf" />
     <Content Include="packages.config" />
     <Content Include="config\imageprocessor\security.config" />
     <Content Include="config\imageprocessor\processing.config" />
@@ -271,6 +272,8 @@
     <Content Include="config\applications.config" />
     <Content Include="config\404handlers.config" />
     <None Include="Properties\PublishProfiles\dolittle-dev - Web Deploy.pubxml" />
+    <Content Include="Umbraco\Install\Views\Index.cshtml" />
+    <None Include="Umbraco\Install\Views\Web.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
     <Content Include="Views\Partials\Grid\Editors\Rte.cshtml" />
@@ -335,9 +338,7 @@
     <Content Include="Umbraco\assets\less\radius.less" />
     <Content Include="Umbraco\assets\less\shadow.less" />
     <Content Include="Umbraco\assets\less\slider.less" />
-    <Content Include="Umbraco\Install\Views\Index.cshtml" />
-    <Content Include="Umbraco\Install\Views\Web.config" />
-    <Content Include="Umbraco\Js\web.config" />
+    <None Include="Umbraco\Js\web.config" />
     <Content Include="Umbraco\lib\angular-dynamic-locale\tmhDynamicLocale.min.js.map" />
     <Content Include="Umbraco\lib\angular-local-storage\angular-local-storage.min.js.map" />
     <Content Include="Umbraco\lib\bootstrap-tabdrop\README.md" />
@@ -426,7 +427,7 @@
     <Content Include="Umbraco\Webservices\MediaUploader.ashx" />
     <Content Include="Umbraco\Webservices\TagsAutoCompleteHandler.ashx" />
     <Content Include="Umbraco\Webservices\TreeDataService.ashx" />
-    <Content Include="Umbraco\Xslt\Web.config" />
+    <None Include="Umbraco\Xslt\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
