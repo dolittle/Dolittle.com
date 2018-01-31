@@ -3,3 +3,8 @@ node_modules/
 dist/
 .DS_Store
 www
+
+**/obj/**
+**/bin/**
+**/NuGetBackup/**
+**/packages/**
