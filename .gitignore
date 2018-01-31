@@ -8,3 +8,7 @@ www
 **/bin/**
 **/NuGetBackup/**
 **/packages/**
+**/TEMP/**
+**/App_Data/Logs/**
+**/App_Data/Umbraco.config
+
