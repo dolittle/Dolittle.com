@@ -14,21 +14,6 @@
             padding: 2rem;
             flex-grow: 1;
         }
-        h2 {
-            border-bottom: 0.1875rem solid $color-brand-yellow;
-            color: $color-brand-grey;
-            font-size: 2rem;
-            font-weight: bold;
-            margin-bottom: 1rem;
-            text-align: center;
-            width: 100%;
-            @include media-bp-min(tablet) {
-                font-size: 2.5rem;
-            }
-            @include media-bp-min(desktop) {
-                font-size: 3.5rem;
-            }
-        }
         figure {
             margin-bottom: 1rem;
             width: 70%;
@@ -39,7 +24,7 @@
                 width: 40%;
             }
         }
-        p {
+        h2 {
             border-top: 0.1875rem solid $color-brand-yellow;
             text-align: center;
             color: $color-brand-dark-blue;
