@@ -2,7 +2,7 @@
     @extend %flex-container;
     @extend %flex-center-vertical;
     @include media-bp-min(tablet) {
-        background-image: url('../images/splash.png');
+        background-image: url('../images/orangeOffice.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; // background-blend-mode: multiply;
