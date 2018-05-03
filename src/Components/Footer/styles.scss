@@ -1,11 +1,14 @@
 $footer-content-text-color: #969696 !default;
 .footer-content {
-    @extend %flex-container;
-    @extend %flex-center-vertical;
+    @extend %flex-container-vertical-center;
     padding: 1rem;
     text-align: center;
-    font-size: .875rem;
     color: $footer-content-text-color;
+    p {
+        font-size: 0.875rem;
+        line-height: 1.3em;
+        margin-bottom: 1.25em;
+    }
     a {
         color: $footer-content-text-color;
     }
@@ -13,15 +16,14 @@ $footer-content-text-color: #969696 !default;
         font-style: normal;
     }
     nav {
-        @extend %flex-container;
-        @extend %flex-center-horizontal;
+        @extend %flex-container-horizontal-center;
         margin-bottom: 1.5rem;
         a {
             border: 1px solid #8a8a8a;
             display: block;
             height: 3rem;
             margin: 1rem;
-            padding: .5rem;
+            padding: 0.5rem;
             width: 3rem;
         }
     }

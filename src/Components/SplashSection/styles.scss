@@ -1,6 +1,5 @@
 .splash-header {
-    @extend %flex-container;
-    @extend %flex-center-vertical;
+    @extend %flex-container-vertical-center;
     @include media-bp-min(tablet) {
         background-image: url('../images/orangeOffice.jpg');
         background-repeat: no-repeat;

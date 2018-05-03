@@ -4,3 +4,4 @@ dist/
 .DS_Store
 www
 package-lock.json
+yarn.lock

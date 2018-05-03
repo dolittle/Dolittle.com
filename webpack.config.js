@@ -3,7 +3,7 @@ const configParts = require("./webpack.parts");
 
 
 module.exports = [{
-    entry: ['./src/scripts/index.js', './src/styles/style.scss'],
+    entry: ['./src/styles/style.scss'],
     output: {
         filename: 'bundle.[hash:9].js',
         path: path.resolve(__dirname, 'dist')

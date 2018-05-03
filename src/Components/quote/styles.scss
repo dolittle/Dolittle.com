@@ -1,6 +1,5 @@
 .quote {
-    @extend %flex-container;
-    @extend %flex-center-vertical;
+    @extend %flex-container-vertical-center;
     padding: 3rem 2rem;
     .content {
         @extend %fixed-width-at-tablet;

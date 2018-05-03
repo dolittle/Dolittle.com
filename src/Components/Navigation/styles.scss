@@ -1,6 +1,5 @@
 .header-content {
-    @extend %flex-container;
-    @extend %flex-center-vertical;
+    @extend %flex-container-vertical-center;
     padding-top: 1rem;
     @include media-bp-min(tablet) {
         align-items: flex-end;

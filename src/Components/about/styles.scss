@@ -5,8 +5,7 @@
     }
 }
 .contact-list {
-    @extend %flex-container;
-    @extend %flex-center-horizontal;
+    @extend %flex-container-horizontal-center;
     flex-wrap: wrap;
     li {
         flex: 0 1 22rem;
