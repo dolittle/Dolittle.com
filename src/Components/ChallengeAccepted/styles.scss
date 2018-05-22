@@ -1,0 +1,33 @@
+.challenge-accepted {
+    @extend %flex-container-vertical-center;
+    text-align: center;
+    padding: $grid-gutter * 3 $grid-gutter;
+    h2 {
+        font-size: 2.8rem;
+    }
+    h3 {
+        font-style: italic;
+    }
+
+    .ghost-button {
+        border: solid 0.0625rem $body-text-color;
+        color: inherit;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        padding: $grid-gutter/2;
+        margin: $grid-gutter;
+    }
+
+    @include media-bp-min(tablet) {
+        background-image: url('../images/jackson-hendry-440574-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; // background-blend-mode: multiply;
+        color: #fff;
+        padding: $grid-gutter * 3 $grid-gutter $grid-gutter * 6;
+        text-shadow: 0 0 1rem $body-text-color;
+        .ghost-button {
+            border-color: #fff;
+        }
+    }
+}

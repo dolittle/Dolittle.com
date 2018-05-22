@@ -5,6 +5,11 @@ header.main-header {
 .page-section {
     width: 100%;
     padding: $grid-gutter * 2 $grid-gutter;
+
+    &.no-padding {
+        padding: 0;
+    }
+
     &.orange {
         background-color: $color-brand-orange;
         color: $color-white;
@@ -21,6 +26,9 @@ header.main-header {
     }
     &.light-grey {
         background-color: $color-light-grey;
+    }
+    &.medium-grey {
+        background-color: $color-medium-grey;
     }
     &.dark-grey {
         background-color: $color-dark-grey;
