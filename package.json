@@ -14,7 +14,7 @@
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.17",
     "css-loader": "^0.28.8",
-    "dolittle.styles": "git+ssh://git@github.com:dolittle/Dolittle.styles.git",
+    "dolittle.styles": "https://github.com/dolittle/dolittle.styles.git",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.6",
     "html-loader": "^0.5.4",
