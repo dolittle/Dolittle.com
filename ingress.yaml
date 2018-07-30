@@ -1,0 +1,15 @@
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: www
+  namespace: dolittle
+spec:
+  rules:
+  - host: www.dolittle.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: www
+          servicePort: 80
