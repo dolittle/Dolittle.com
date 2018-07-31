@@ -13,3 +13,10 @@ spec:
         backend:
           serviceName: www
           servicePort: 80
+  - host: dolittle.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: www
+          servicePort: 80          
