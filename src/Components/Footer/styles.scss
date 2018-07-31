@@ -17,6 +17,7 @@ $footer-content-text-color: #969696 !default;
     }
     nav {
         @extend %flex-container-horizontal-center;
+        flex-wrap: wrap;
         margin-bottom: 1.5rem;
         a {
             border: 1px solid #8a8a8a;
