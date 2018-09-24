@@ -25,13 +25,13 @@ header.main-header {
         background-color: $color-brand-yellow;
     }
     &.light-grey {
-        background-color: $color-light-grey;
+        background-color: $color-gray-light;
     }
     &.medium-grey {
         background-color: $color-medium-grey;
     }
     &.dark-grey {
-        background-color: $color-dark-grey;
+        background-color: $color-gray-dark;
         color: $color-white;
         a {
             color: $color-white;
