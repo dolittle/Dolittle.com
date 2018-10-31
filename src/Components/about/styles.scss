@@ -20,17 +20,19 @@
         }
     }
     h3 {
+        color: $color-brand-yellow;
         font-size: 1.25rem;
         margin-bottom: 0;
-        color: $color-brand-yellow;
+        text-align: center;
         white-space: nowrap;
     }
     strong {
         font-weight: normal;
         margin-bottom: 1rem;
+        text-align: center;
         display: block;
     }
     p {
-        font-size: .875rem;
+        font-size: 0.875rem;
     }
 }
