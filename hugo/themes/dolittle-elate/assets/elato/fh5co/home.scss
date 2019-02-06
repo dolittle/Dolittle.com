@@ -1,0 +1,62 @@
+#fh5co-home {
+    background-color: transparent;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+
+    background-color: $brand-primary;
+    color: #fff;
+    overflow: hidden;
+    .gradient {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        opacity: 0.9;
+        -webkit-backface-visibility: hidden; // for Chrome Windows
+
+        @include fh5co-gradient;
+    }
+    &,
+    .text-wrap {
+        height: 900px;
+    }
+    .text-wrap {
+        display: table;
+        width: 100%;
+        position: relative;
+        z-index: 4;
+    }
+    .text-inner {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        a {
+            color: rgba(255, 255, 255, 1);
+            border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+            @include transition(0.5s);
+            &:hover,
+            &:active,
+            &:focus {
+                text-decoration: none;
+                color: rgba(255, 255, 255, 1);
+                border-bottom: 1px dashed rgba(255, 255, 255, 1);
+            }
+        }
+        h1 {
+            font-size: 50px;
+            color: rgba(255, 255, 255, 1);
+            margin: 0 0 20px 0;
+        }
+        h2 {
+            font-size: 28px;
+            line-height: 38px;
+            font-weight: 300;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 0;
+        }
+    }
+}

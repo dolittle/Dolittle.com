@@ -1,0 +1,7 @@
+a {
+    color: $color-brand-dark-blue;
+    transition: .1s color ease-in-out;
+    &:hover {
+        color: $color-brand-orange;
+    }
+}

@@ -5,8 +5,6 @@ languageCode = "en-us"
 theme = "dolittle-elate"
 [params]
   
- # custom_css = ["css/custom1.css", "css/custom2.css"]
-
   # Meta
   author = ""
   description = ""
@@ -17,7 +15,7 @@ theme = "dolittle-elate"
 
   # Navigation
   [params.navigation]
-    brand = "Elate"
+    brand = "Dolittle"
     home = "Home"
     work = "Work"
     testimonials = "Testimonials"
@@ -35,23 +33,23 @@ theme = "dolittle-elate"
     #  weight = 10
 
     # postpended links
-    #[[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "External link"
-    #  weight = 10
+    [[menu.postpend]]
+     url = "http://dolittle.io"
+     name = "Documentation"
+     weight = 10
   
   # Hero section
   [params.hero]
-    title = "Do something you love."
-    subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+    title = "Want to know how to do less?"
+    subtitle = 'Dolittle'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Idea"
+    description = "A long time ago in a galaxy far, far away, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
     button = "Get In Touch"
     icon = "icon-bulb"
@@ -59,15 +57,15 @@ theme = "dolittle-elate"
 
   [[params.intro.item]]
     title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "A long time ago in a galaxy far, far away, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
-    button = "Click Me"
+    button = "Getting started"
     icon = "icon-wrench"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Deploy"
+    description = "A long time ago in a galaxy far, far away, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
     button = "Why us?"
     icon = "icon-rocket"
@@ -77,7 +75,7 @@ theme = "dolittle-elate"
     enable = true
     title = "Watch the video"
     icon = "icon-play2"
-    url = "https://vimeo.com/channels/staffpicks/93951774"
+    url = "https://www.youtube.com/watch?v=9cZXtmnMSRI"
 
 
   # Work section

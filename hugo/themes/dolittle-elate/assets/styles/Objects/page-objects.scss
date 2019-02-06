@@ -1,0 +1,44 @@
+header.main-header {
+    @extend %flex-container-horizontal-center;
+}
+
+.page-section {
+    width: 100%;
+    padding: $grid-gutter * 2 $grid-gutter;
+
+    &.no-padding {
+        padding: 0;
+    }
+
+    &.orange {
+        background-color: $color-brand-orange;
+        color: $color-white;
+    }
+    &.dark-blue {
+        background-color: $color-brand-dark-blue;
+        color: $color-white;
+    }
+    &.light-blue {
+        background-color: $color-brand-light-blue;
+    }
+    &.yellow {
+        background-color: $color-brand-yellow;
+    }
+    &.light-grey {
+        background-color: $color-gray-light;
+    }
+    &.medium-grey {
+        background-color: $color-medium-grey;
+    }
+    &.dark-grey {
+        background-color: $color-gray-dark;
+        color: $color-white;
+        a {
+            color: $color-white;
+        }
+    }
+}
+
+footer.main-footer {
+    border-top: 1px solid $color-medium-grey;
+}

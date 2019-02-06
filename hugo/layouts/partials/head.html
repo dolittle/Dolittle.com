@@ -56,18 +56,8 @@
 <!-- Bootstrap  -->
 <link rel="stylesheet" href="css/bootstrap.css" />
 
-<link rel="stylesheet" href="css/style.css" />
-
-<!--
-       custom css files can be configured in config.toml:
-       [params]
-          custom_css = ["css/foo.css", "css/bar.css"]
-     -->
-{{ range.Site.Params.custom_css }}
-<link rel="stylesheet" href="{{ . }}" />
-{{ end }}
 
 {{ $scss_options := (dict "targetPath" "css/dolittle.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice "node_modules/@dolittle/styles")) }}
 {{ $postcss_options := (dict "config" "postcss.config.js" "noMap" true)}}
-{{ $style := resources.Get "scss/main.scss" | resources.ToCSS $scss_options | resources.PostCSS }}
+{{ $style := resources.Get "styles/style.scss" | resources.ToCSS $scss_options | resources.PostCSS }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />

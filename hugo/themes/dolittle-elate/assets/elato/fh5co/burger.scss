@@ -1,0 +1,80 @@
+.fh5co-nav-toggle {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    &.active i {
+        &::before,
+        &::after {
+            background: $brand-primary;
+        }
+    }
+    &:hover,
+    &:focus,
+    &:active {
+        outline: none;
+        border-bottom: none !important;
+    }
+    i {
+        position: relative;
+        @include inline-block;
+        width: 25px;
+        height: 3px;
+        color: $brand-primary;
+        font: bold 14px/0.4 Helvetica;
+        text-transform: uppercase;
+        text-indent: -55px;
+        background: $brand-primary;
+        transition: all 0.2s ease-out;
+        &::before,
+        &::after {
+            content: '';
+            width: 25px;
+            height: 3px;
+            background: $brand-primary;
+            position: absolute;
+            left: 0;
+            @include transition(0.2s);
+        }
+    }
+}
+
+.fh5co-nav-toggle i::before {
+    top: -7px;
+}
+.fh5co-nav-toggle i::after {
+    bottom: -7px;
+}
+.fh5co-nav-toggle:hover i::before {
+    top: -10px;
+}
+.fh5co-nav-toggle:hover i::after {
+    bottom: -10px;
+}
+.fh5co-nav-toggle.active i {
+    background: transparent;
+}
+.fh5co-nav-toggle.active i::before {
+    top: 0;
+    transform: rotateZ(45deg);
+}
+.fh5co-nav-toggle.active i::after {
+    bottom: 0;
+    transform: rotateZ(-45deg);
+}
+.fh5co-nav-toggle {
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    z-index: 21;
+    padding: 6px 0 0 0;
+    display: block;
+    margin: 0 auto;
+    display: none;
+    height: 44px;
+    width: 25px;
+    border-bottom: none !important;
+    @media screen and (max-width: $screen-sm) {
+        display: block;
+    }
+}

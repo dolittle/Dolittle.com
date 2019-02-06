@@ -1,0 +1,31 @@
+// Helper Class
+.col-xxs-12 {
+    @media screen and (max-width: 480px) {
+        float: none;
+        width: 100%;
+    }
+}
+.row-bottom-padded-lg {
+    padding-bottom: 7em;
+    @media screen and (max-width: $screen-sm) {
+        padding-bottom: 2em;
+    }
+}
+.row-bottom-padded-md {
+    padding-bottom: 4em;
+    @media screen and (max-width: $screen-sm) {
+        padding-bottom: 2em;
+    }
+}
+.row-bottom-padded-sm {
+    padding-bottom: 2em;
+    @media screen and (max-width: $screen-sm) {
+        padding-bottom: 2em;
+    }
+}
+
+// Menu bar Animate
+.fh5co-animated {
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+}
