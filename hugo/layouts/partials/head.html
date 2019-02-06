@@ -1,0 +1,71 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>{{ .Title }}</title>
+<!-- 
+    //////////////////////////////////////////////////////
+
+    FREE HTML5 TEMPLATE 
+    DESIGNED & DEVELOPED by FREEHTML5.CO
+        
+    Website:        http://freehtml5.co/
+    Email:          info@freehtml5.co
+    Twitter:        http://twitter.com/fh5co
+    Facebook:       https://www.facebook.com/fh5co
+
+    HUGO TEMPLATE PORTED BY Pieter Saey
+
+    Website:        http://saey55.gitlab.io/pietercv
+    Email:          saeypieter@gmail.com
+    Twitter:        http://twitter.com/saey55
+    
+
+    //////////////////////////////////////////////////////
+     -->
+<!-- Facebook and Twitter integration -->
+{{ if not .Site.Params.OpenGraph.hide }}
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:image" content="{{ .Site.BaseURL }}images/{{ .Site.Params.sidebar.avatar }}" />
+<meta name="twitter:title" content="{{ .Site.Title }}" />
+<meta name="twitter:url" content="{{ .Permalink }}" />
+<meta name="twitter:image" content="{{ .Site.BaseURL }}images/{{ .Site.Params.sidebar.avatar }}" />
+<meta name="twitter:card" content="" />
+{{ end }}
+
+<!-- canonical link tag -->
+<link rel="canonical" href="{{ .Permalink }}" />
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="favicon.ico" />
+
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="css/leaflet.css" />
+
+<!-- Animate.css -->
+<link rel="stylesheet" href="css/animate.css" />
+<!-- Icomoon Icon Fonts-->
+<link rel="stylesheet" href="css/icomoon.css" />
+<!-- Simple Line Icons -->
+<link rel="stylesheet" href="css/simple-line-icons.css" />
+<!-- Magnific Popup -->
+<link rel="stylesheet" href="css/magnific-popup.css" />
+<!-- Bootstrap  -->
+<link rel="stylesheet" href="css/bootstrap.css" />
+
+<link rel="stylesheet" href="css/style.css" />
+
+<!--
+       custom css files can be configured in config.toml:
+       [params]
+          custom_css = ["css/foo.css", "css/bar.css"]
+     -->
+{{ range.Site.Params.custom_css }}
+<link rel="stylesheet" href="{{ . }}" />
+{{ end }}
+
+{{ $style := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
