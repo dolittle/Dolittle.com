@@ -5,3 +5,5 @@ dist/
 www
 package-lock.json
 yarn.lock
+hugo/**/_gen
+hugo/public
