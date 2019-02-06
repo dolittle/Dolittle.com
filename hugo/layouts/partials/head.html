@@ -67,5 +67,7 @@
 <link rel="stylesheet" href="{{ . }}" />
 {{ end }}
 
-{{ $style := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
+{{ $scss_options := (dict "targetPath" "css/dolittle.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice "node_modules/@dolittle/styles")) }}
+{{ $postcss_options := (dict "config" "postcss.config.js" "noMap" true)}}
+{{ $style := resources.Get "scss/main.scss" | resources.ToCSS $scss_options | resources.PostCSS }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
