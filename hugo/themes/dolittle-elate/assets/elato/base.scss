@@ -12,7 +12,7 @@ body {
 }
 a {
     color: $brand-primary;
-    @include transition(0.5s);
+    transition: 0.5s;
     &:hover,
     &:active,
     &:focus {
@@ -54,7 +54,7 @@ h6 {
 .btn {
     text-transform: uppercase;
     letter-spacing: 2px;
-    @include transition(0.3s);
+    transition: 0.3s;
     &.btn-primary {
         background: $brand-primary;
         color: $brand-white;

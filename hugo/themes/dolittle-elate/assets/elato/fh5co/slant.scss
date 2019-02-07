@@ -66,7 +66,7 @@
             bottom: 0;
             left: 0;
             right: 0;
-            @include transition(0.5s);
+            transition: 0.5s;
         }
         > .fh5co-text {
             position: relative;
@@ -145,7 +145,7 @@
             margin: 0;
             padding: 0;
             right: -9px;
-            @include transition(0.3s);
+            transition: 0.3s;
         }
         &:hover,
         &:focus {
@@ -176,7 +176,7 @@
     }
 }
 #fh5co-services {
-    @include fh5co-gradient;
+    background-image: repeating-linear-gradient(to bottom right, $color-brand-dark-blue 0%, $color-brand-orange 100%);
 
     overflow: hidden;
     position: relative;
@@ -397,12 +397,10 @@
 }
 
 #fh5co-work {
-    // background: $brand-secondary;
-
     overflow: hidden;
     position: relative;
     color: rgba(255, 255, 255, 0.8);
-    @include fh5co-gradient;
+    background-image: repeating-linear-gradient(to bottom right, $color-brand-dark-blue 0%, $color-brand-orange 100%);
     a {
         color: rgba(255, 255, 255, 0.5);
         text-decoration: underline;
@@ -453,12 +451,12 @@
 
         margin-bottom: 30px;
         @include border-radius(7px);
-        @include transition(0.3s);
+        transition: 0.3s;
 
         img {
             z-index: 8;
             opacity: 1;
-            @include transition(0.3s);
+            transition: 0.3s;
         }
         .fh5co-text {
             padding: 10px 20px;

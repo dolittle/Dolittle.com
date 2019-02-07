@@ -34,7 +34,7 @@
             background: $brand-primary;
             position: absolute;
             left: 0;
-            @include transition(0.2s);
+            transition: 0.2s;
         }
     }
 }

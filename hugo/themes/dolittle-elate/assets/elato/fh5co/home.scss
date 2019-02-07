@@ -17,8 +17,7 @@
         z-index: 2;
         opacity: 0.9;
         -webkit-backface-visibility: hidden; // for Chrome Windows
-
-        @include fh5co-gradient;
+		background-image: repeating-linear-gradient(to bottom right,$color-brand-dark-blue 0%,$color-brand-orange 100%);
     }
     &,
     .text-wrap {
@@ -37,7 +36,7 @@
         a {
             color: rgba(255, 255, 255, 1);
             border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
-            @include transition(0.5s);
+            transition: 0.5s;
             &:hover,
             &:active,
             &:focus {

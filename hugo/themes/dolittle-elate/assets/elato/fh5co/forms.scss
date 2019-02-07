@@ -15,7 +15,7 @@
     }
 }
 .btn {
-    @include transition(0.5s);
+    transition: 0.5s;
     &:hover,
     &:active,
     &:focus {
@@ -96,5 +96,5 @@
 }
 
 .btn {
-    @include transition(0.3s);
+    transition: 0.3s;
 }
