@@ -26,20 +26,15 @@
     // Contacts
     padding-bottom: 0;
     .fh5co-contact-info {
-        // color: rgba(255,255,255,.7);
         padding: 0;
         margin: 0 0 1.5em 0;
         li {
-            position: relative;
             padding: 0;
-            margin: 0 0 1.5em 0;
-            padding-left: 50px;
+            margin: 0 0 $grid-gutter;
             list-style: none;
-
+            text-align: center;
             i {
-                position: absolute;
-                top: 0.2em;
-                left: 0;
+                margin-right: $grid-gutter;
             }
         }
     }

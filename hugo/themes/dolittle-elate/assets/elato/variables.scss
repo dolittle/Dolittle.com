@@ -1,12 +1,12 @@
-$font-primary: 'Source Sans Pro', Arial, sans-serif;
+$font-primary: $font-family-default;
 
 // Overrides
 $grid-gutter-width: 40px !default; 
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #52d3aa !default;
-$brand-secondary: #3f95ea !default; 
+$brand-primary: $color-brand-orange!default;
+$brand-secondary: $color-brand-light-blue !default; 
 
 
 
