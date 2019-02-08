@@ -22,13 +22,19 @@
     @media screen and (max-width: $screen-sm) {
         padding-bottom: 3em;
     }
-    > div {
-        @include flex;
-        @include flexwrap;
+    .intro-items {
+        max-width: 100%;
+        overflow: hidden;
+        margin-bottom: $grid-gutter * 3;
+        @include media-bp-min(tablet) {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-self: stretch;
+        }
     }
     .fh5co-block {
-        width: 33.33%;
-        float: left;
+        width: 100%;
         text-align: center;
         font-size: 16px;
         min-height: 300px;
@@ -37,14 +43,18 @@
         background: $brand-white;
         box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
         z-index: 7;
-        flex-grow: 1;
+        flex: 0 0 auto;
 
         background-size: cover;
         position: relative;
         backgroun-repeat: no-repeat;
-
-        @media screen and (max-width: $screen-sm) {
-            width: 100%;
+        @include media-bp-min(tablet) {
+            width: 50%;
+            flex-grow: 1;
+        }
+        @include media-bp-min(tablet-landscape) {
+            width: 33.33%;
+            flex-grow: 0;
         }
         > .overlay-darker {
             z-index: 8;
@@ -71,11 +81,21 @@
         > .fh5co-text {
             position: relative;
             z-index: 10;
+            @include media-bp-min(tablet) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                height: 100%;
+            }
             .fh5co-intro-icon {
                 font-size: 50px;
                 color: $brand-primary;
                 margin-bottom: 30px;
                 display: block;
+            }
+            .btn {
+                margin-top: auto;
             }
         }
         h2 {
@@ -114,7 +134,7 @@
     text-align: center;
     width: 100%;
     display: block;
-    float: left;
+    background-color: chartreuse;
     span {
         display: block;
         margin-bottom: 20px;
@@ -494,6 +514,7 @@
 .fh5co-person {
     border: 2px solid lighten($brand-black, 95%);
     padding: 80px 30px 30px 30px;
+    margin-bottom: 8rem;
     float: left;
     width: 100%;
     position: relative;

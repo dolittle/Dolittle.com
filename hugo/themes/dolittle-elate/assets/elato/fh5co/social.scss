@@ -28,29 +28,34 @@
                 border-bottom: none;
             }
             &.social-box {
-                background: $brand-primary;
-                color: $brand-white;
+                background: #fff;
+                color: $color-brand-orange;
+                border: solid 0.0625rem $color-brand-orange;
             }
             &.social-circle {
-                background: $brand-primary;
-                color: $brand-white;
+                background: #fff;
+                color: $color-brand-orange;
+                border: solid 0.0625rem $color-brand-orange;
                 @include border-radius(50%);
             }
             &:hover {
-                background: #393e46 !important;
+                background: $color-brand-orange;
+                color: #fff;
             }
         }
     }
     &.social-box {
         a {
-            background: $brand-primary;
-            color: $brand-white;
+            background: #fff;
+            color: $color-brand-orange;
+            border: solid 0.0625rem $color-brand-orange;
         }
     }
     &.social-circle {
         a {
-            background: $brand-primary;
-            color: $brand-white;
+            background: #fff;
+            color: $color-brand-orange;
+            border: solid 0.0625rem $color-brand-orange;
             @include border-radius(50%);
         }
     }

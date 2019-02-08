@@ -50,27 +50,27 @@ theme = "dolittle-elate"
 
   [[params.intro.item]]
     title = "Idea"
-    description = "A long time ago in a galaxy far, far away, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit."
     url = "#"
     button = "Get In Touch"
     icon = "icon-bulb"
-    img = "img_7.jpg"
+    img = "img_7.jpg" # TODO:
 
   [[params.intro.item]]
     title = "Develop"
-    description = "A long time ago in a galaxy far, far away, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Nullam quis risus eget urna mollis ornare vel eu leo."
     url = "#"
     button = "Getting started"
     icon = "icon-wrench"
-    img = "img_8.jpg"
+    img = "img_8.jpg" # TODO:
 
   [[params.intro.item]]
     title = "Deploy"
-    description = "A long time ago in a galaxy far, far away, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
     url = "#"
     button = "Why us?"
     icon = "icon-rocket"
-    img = "img_10.jpg"
+    img = "img_10.jpg" # TODO:
 
   [params.intro.video]
     enable = true
@@ -86,41 +86,41 @@ theme = "dolittle-elate"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
-    [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+    # [[params.work.row]]
+    #   img = "work_1.jpg"
+    #   alt = "Image2"
+    #   title = "Project 1"
+    #   subtitle = "Branding"
 
-    [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+    # [[params.work.row]]
+    #   img = "work_2.jpg"
+    #   alt = "Image2"
+    #   title = "Project 2"
+    #   subtitle = "Design"
 
-    [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+    # [[params.work.row]]
+    #   img = "work_3.jpg"
+    #   alt = "Image3"
+    #   title = "Project 3"
+    #   subtitle = "Design"
 
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
+    # [[params.work.row]]
+    #   img = "work_4.jpg"
+    #   alt = "Image4"
+    #   title = "Project 4"
+    #   subtitle = "Design"
 
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
+    # [[params.work.row]]
+    #   img = "work_5.jpg"
+    #   alt = "Image5"
+    #   title = "Project 5"
+    #   subtitle = "Design"
 
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+    # [[params.work.row]]
+    #   img = "work_6.jpg"
+    #   alt = "Image6"
+    #   title = "Project 6"
+    #   subtitle = "Design"
 
   # Testimonials section
   [params.testimonials]
@@ -128,23 +128,23 @@ theme = "dolittle-elate"
     title = "Testimonials"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
+    # [[params.testimonials.item]]
+    #   quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+    #   person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+    #   img = "person1.jpg"
+    #   alt = "Person1"
 
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
+    # [[params.testimonials.item]]
+    #   quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+    #   person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+    #   img = "person2.jpg"
+    #   alt = "Person2"
 
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
+    # [[params.testimonials.item]]
+    #   quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+    #   person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+    #   img = "person3.jpg"
+    #   alt = "Person3"
     
 
 
@@ -180,12 +180,12 @@ theme = "dolittle-elate"
     title = "About"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
-    [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
+     [[params.about.item]]
+      name = "Einar Ingrbrigtsen"
+      position = "CTO"
+      description = "A long time ago in a galaxy far, far away, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "Einar.jpg"
+      alt = "Profile photo of Einar"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
@@ -193,11 +193,11 @@ theme = "dolittle-elate"
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
+      name = "Arif Shafique"
+      position = "CEO"
+      description = "A long time ago in a galaxy far, far away, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "Arif.jpg"
+      alt = "Profile photo of Arif"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
@@ -205,11 +205,88 @@ theme = "dolittle-elate"
       ]
 
     [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
+      name = "Michael Smith"
+      position = "Chief Success Officer"
+      description = "A long time ago in a galaxy far, far away, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "Michael.jpg"
+      alt = "Profile photo of Michael"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]      
+    [[params.about.item]]
+      name = "Vidar Aune Westrum"
+      position = "Design Lead"
+      description = "A long time ago in a galaxy far, far away, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "Vidar.jpg"
+      alt = "Profile photo of Vidar"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]      
+    [[params.about.item]]
+      name = "Petri Wilhelmsen"
+      position = "VP Digital Twin"
+      description = "A long time ago in a galaxy far, far away, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "Petri.jpg"
+      alt = "Profile photo of Petri"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]      
+    [[params.about.item]]
+      name = "Pavneet Singh Saund"
+      position = "User Experience Lead"
+      description = "A long time ago in a galaxy far, far away, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "Pav.jpg"
+      alt = "Profile photo of Pavneet"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]      
+    [[params.about.item]]
+      name = "Tomas Ekeli"
+      position = "Customer Success Lead"
+      description = "A long time ago in a galaxy far, far away, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "Tomas.jpg"
+      alt = "Profile photo of Tomas"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]      
+    [[params.about.item]]
+      name = "Sindre Alstad Wilting"
+      position = "OSS Platform Engineer"
+      description = "A long time ago in a galaxy far, far away, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "Sindre.jpg"
+      alt = "Profile photo of Sindre"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]      
+    [[params.about.item]]
+      name = "Tore Eggen"
+      position = "EVP Product"
+      description = "A long time ago in a galaxy far, far away, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "Tore.jpg"
+      alt = "Profile photo of Tore"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]      
+    [[params.about.item]]
+      name = "Jakob Høgenes"
+      position = "Senior platform and automation engineer"
+      description = "A long time ago in a galaxy far, far away, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "Jakob.jpg"
+      alt = "Profile photo of Jakob"
       social = [
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
