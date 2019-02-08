@@ -75,8 +75,8 @@ theme = "dolittle-elate"
   [params.intro.video]
     enable = true
     title = "Watch the video"
-    icon = "icon-play2"
     url = "https://www.youtube.com/watch?v=9cZXtmnMSRI"
+    youtube_id = "9cZXtmnMSRI"
 
 
   # Work section
