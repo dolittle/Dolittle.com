@@ -10,7 +10,7 @@ theme = "dolittle-elate"
   description = ""
   email = ""
 
-  # Google Maps Javascript API Key (if not set will default to not passing a key)
+  # Google Maps Javascript API Key (if not set will default to not passi  ng a key)
   googleMapsApiKey = ""
 
   # Navigation
@@ -187,9 +187,8 @@ theme = "dolittle-elate"
       img = "Einar.jpg"
       alt = "Profile photo of Einar"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-twitter", "https://twitter.com/einari"],
+        ["icon-linkedin", "https://www.linkedin.com/in/einari/"]
       ]
 
     [[params.about.item]]
@@ -199,9 +198,8 @@ theme = "dolittle-elate"
       img = "Arif.jpg"
       alt = "Profile photo of Arif"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-twitter", "https://twitter.com/arifsh"],
+        ["icon-linkedin", "https://www.linkedin.com/in/arifsh/"]
       ]
 
     [[params.about.item]]
@@ -211,9 +209,8 @@ theme = "dolittle-elate"
       img = "Michael.jpg"
       alt = "Profile photo of Michael"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-twitter", "https://twitter.com/WolfieBhoy"],
+        ["icon-linkedin", "https://www.linkedin.com/in/smithmx/"]
       ]      
     [[params.about.item]]
       name = "Vidar Aune Westrum"
@@ -222,9 +219,8 @@ theme = "dolittle-elate"
       img = "Vidar.jpg"
       alt = "Profile photo of Vidar"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-twitter", "https://twitter.com/virrum"],
+        ["icon-linkedin", "https://www.linkedin.com/in/vidar-aune-westrum/"]
       ]      
     [[params.about.item]]
       name = "Petri Wilhelmsen"
@@ -233,9 +229,8 @@ theme = "dolittle-elate"
       img = "Petri.jpg"
       alt = "Profile photo of Petri"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-twitter", "https://twitter.com/petriw"],
+        ["icon-linkedin", "https://www.linkedin.com/in/petriw/"]
       ]      
     [[params.about.item]]
       name = "Pavneet Singh Saund"
@@ -244,9 +239,8 @@ theme = "dolittle-elate"
       img = "Pav.jpg"
       alt = "Profile photo of Pavneet"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-twitter", "https://twitter.com/pavsaund"],
+        ["icon-linkedin", "https://www.linkedin.com/in/pavneet/"]
       ]      
     [[params.about.item]]
       name = "Tomas Ekeli"
@@ -255,9 +249,8 @@ theme = "dolittle-elate"
       img = "Tomas.jpg"
       alt = "Profile photo of Tomas"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-twitter", "https://twitter.com/tomasekeli"],
+        ["icon-linkedin", "https://www.linkedin.com/in/tomasekeli/"]
       ]      
     [[params.about.item]]
       name = "Sindre Alstad Wilting"
@@ -266,9 +259,8 @@ theme = "dolittle-elate"
       img = "Sindre.jpg"
       alt = "Profile photo of Sindre"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-twitter", "https://twitter.com/SindreWilting"],
+        ["icon-linkedin", "https://www.linkedin.com/in/sindrewilting/"]
       ]      
     [[params.about.item]]
       name = "Tore Eggen"
@@ -277,9 +269,8 @@ theme = "dolittle-elate"
       img = "Tore.jpg"
       alt = "Profile photo of Tore"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-twitter", "https://twitter.com/toreeggen"],
+        ["icon-linkedin", "https://www.linkedin.com/in/toreeggen/"]
       ]      
     [[params.about.item]]
       name = "Jakob Høgenes"
@@ -288,9 +279,8 @@ theme = "dolittle-elate"
       img = "Jakob.jpg"
       alt = "Profile photo of Jakob"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
+        ["icon-twitter", "https://twitter.com/jakobgrylls"],
+        ["icon-linkedin", "https://www.linkedin.com/in/jakob-høgenes-9a878b122/"]
       ]      
 
   # Counters section
@@ -355,7 +345,8 @@ theme = "dolittle-elate"
     enable = true
     copyright = '&copy; Dolittle AS. <br>Web design based on Elato template from <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a>'
     links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
+        ["icon-linkedin", "https://www.linkedin.com/company/dolittle/"],
+        ["icon-twitter", "https://twitter.com/dolittle"],
+        ["icon-facebook", "https://www.facebook.com/dolittleX/"],
+        ["icon-youtube", "https://www.youtube.com/channel/UCO54aeNeVzKFYVo7sVsXlAA"]
       ]
