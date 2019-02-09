@@ -26,7 +26,6 @@
     labels:
       app: beta
   spec:
-    type: LoadBalancer
     ports:
     - port: 80
       targetPort: 80
@@ -35,4 +34,19 @@
     selector:
       app: beta
       name: beta
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: beta
+  namespace: dolittle
+spec:
+  rules:
+  - host: beta.dolittle.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: beta
+          servicePort: 80        
   
