@@ -1,0 +1,22 @@
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: beta
+  namespace: dolittle
+spec:
+  rules:
+  - host: beta.dolittle.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: beta
+          servicePort: 80
+  - host: dolittle.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: beta
+          servicePort: 80          

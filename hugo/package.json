@@ -1,12 +1,14 @@
 {
-  "name": "dolittle-com-hugo",
-  "version": "0.0.1",
-  "description": "The webside dolittle.com build on HUGO",
-  "main": "index.js",
-  "author": "Dolittle AS",
-  "license": "MIT",
-  "private": true,
-  "devDependencies": {
-    "@dolittle/styles": "^2.9.5"
-  }
+    "name": "dolittle-com-hugo",
+    "version": "0.0.1",
+    "description": "The webside dolittle.com build on HUGO",
+    "main": "index.js",
+    "author": "Dolittle AS",
+    "license": "MIT",
+    "private": true,
+    "devDependencies": {
+        "@dolittle/styles": "^2.9.5",
+        "autoprefixer": "^9.4.7",
+        "postcss-cli": "^6.1.1"
+    }
 }
