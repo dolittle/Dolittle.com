@@ -40,7 +40,7 @@ theme = "dolittle-elate"
   
   # Hero section
   [params.hero]
-    title = "Ho do you do less?"
+    title = "How do you do less?"
     subtitle = 'Dolittle'
     background_image = 'images/rawpixel-652593-unsplash_web.jpg'
  
