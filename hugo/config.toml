@@ -327,7 +327,7 @@ theme = "dolittle-elate"
     map = false
     form = false
     title = "Get in touch"
-    description = "Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo."
+    description = ""
     
     # Available icons: http://simplelineicons.com/
     details = [

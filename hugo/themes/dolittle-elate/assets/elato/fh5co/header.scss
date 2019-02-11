@@ -21,7 +21,7 @@
                     transition: 0.3s;
                     &:hover {
                         color: $brand-primary !important;
-                    } 
+                    }
                     span {
                         &:before {
                             background: transparent !important;
@@ -103,19 +103,38 @@
     .navbar-brand {
         float: left;
         display: block;
-        font-size: 30px;
-        font-weight: 700;
-        padding-left: 0;
-        color: $brand-white;
+        padding: 0;
+        figure {
+            height: 3.4375rem;
+            img {
+                display: block;
+                height: 100%;
+                &.color {
+                    display: none;
+                }
+            }
+        }
     }
     &.navbar-fixed-top {
-        position: fixed !important;
+        position: fixed;
         background: $brand-white;
         box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
-        margin-top: 0px;
+        margin-top: 0;
         top: 0;
         .navbar-brand {
             color: $brand-primary;
+            padding: 0.6rem 0.5rem 0 0;
+            figure {
+                height: 2.5rem;
+                img{
+                    &.color {
+                        display: block;
+                    }
+                    &.white {
+                        display: none;
+                    }
+                }
+            }
         }
         #navbar {
             li {
