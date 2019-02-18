@@ -1,14 +1,14 @@
 # Page settings
-baseurl = "http://localhost:1313/"
+baseurl = "https://dolittle.com/"
 title = "Dolittle.com"
 languageCode = "en-us"
 theme = "dolittle-elate"
 [params]
   
   # Meta
-  author = ""
+  author = "Dolittle AS"
   description = "Deliver value with your line of business applications faster with Dolittle"
-  email = ""
+  email = "yo@dolittle.com"
 
   # Google Maps Javascript API Key (if not set will default to not passi  ng a key)
   googleMapsApiKey = ""

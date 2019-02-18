@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "http://localhost:1313/"
+baseurl = "https://beta.dolittle.com/"
 title = "Dolittle.com"
 languageCode = "en-us"
 theme = "dolittle-elate"

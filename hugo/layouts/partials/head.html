@@ -2,6 +2,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 <title>{{ .Title }}</title>
+
+{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+
 <!-- 
     //////////////////////////////////////////////////////
 
@@ -22,14 +26,17 @@
 
     //////////////////////////////////////////////////////
      -->
+
 <!-- Facebook and Twitter integration -->
 {{ if not .Site.Params.OpenGraph.hide }}
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}" />
+{{ with .Site.Params.description }}<meta property="og:description" content="{{ . }}">{{ end }}
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:image" content="{{ .Site.BaseURL }}images/share-logo.png" />
 <meta name="twitter:title" content="{{ .Site.Title }}" />
+{{ with .Site.Params.description }}<meta name="twitter:description" content="{{ . }}">{{ end }}
 <meta name="twitter:url" content="{{ .Permalink }}" />
 <meta name="twitter:image" content="{{ .Site.BaseURL }}images/share-logo.png" />
 <meta name="twitter:card" content="" />
