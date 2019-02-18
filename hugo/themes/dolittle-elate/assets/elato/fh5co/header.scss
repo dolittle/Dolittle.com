@@ -10,7 +10,7 @@
     @media screen and (max-width: $screen-sm) {
         margin-top: 0;
         background: $brand-white;
-        box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 0.5625rem 0 rgba(0, 0, 0, 0.1);
         .navbar-brand {
             color: $brand-primary !important;
         }
@@ -36,7 +36,6 @@
                         span {
                             &:before {
                                 visibility: visible;
-                                -webkit-transform: scaleX(1);
                                 transform: scaleX(1);
                             }
                         }
@@ -55,7 +54,7 @@
                 font-family: $font-primary;
                 color: rgba(255, 255, 255, 0.5);
                 position: relative;
-                font-size: 19px;
+                font-size: 1.1875rem;
                 font-weight: 300;
                 transition: 0.5s;
                 span {
@@ -103,14 +102,31 @@
     .navbar-brand {
         float: left;
         display: block;
-        padding: 0;
+        padding: 0.6rem 0.5rem 0 0;
+        @media screen and (min-width: $screen-md) {
+            padding: 0;
+        }
         figure {
-            height: 3.4375rem;
+            height: 2.5rem;
+            @media screen and (min-width: $screen-md) {
+                height: 3.4375rem;
+            }
             img {
                 display: block;
                 height: 100%;
                 &.color {
                     display: none;
+                }
+                &.white {
+                    display: block;
+                }
+                @media screen and (max-width: $screen-xs-max) {
+                    &.color {
+                        display: block;
+                    }
+                    &.white {
+                        display: none;
+                    }
                 }
             }
         }
@@ -118,7 +134,7 @@
     &.navbar-fixed-top {
         position: fixed;
         background: $brand-white;
-        box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 0.5625rem 0 rgba(0, 0, 0, 0.1);
         margin-top: 0;
         top: 0;
         .navbar-brand {
@@ -126,7 +142,7 @@
             padding: 0.6rem 0.5rem 0 0;
             figure {
                 height: 2.5rem;
-                img{
+                img {
                     &.color {
                         display: block;
                     }
@@ -165,16 +181,16 @@
     .navbar-default {
         border: transparent;
         background: transparent;
-        @include border-radius(0px);
+        border-radius: 0;
         @media screen and (max-width: $screen-sm) {
-            margin-top: 0px;
-            padding-right: 0px;
-            padding-left: 0px;
+            margin-top: 0;
+            padding-right: 0;
+            padding-left: 0;
         }
         .brand-slogan {
-            margin: 28px 0 0 15px;
+            margin: 1.75rem 0 0 0.9375rem;
             float: left;
-            letter-spacing: 2px;
+            letter-spacing: 0.125rem;
             color: #adadad;
             em {
                 color: $brand-primary;
@@ -183,6 +199,6 @@
         }
     }
     a {
-        @include transition(0s);
+        transition: 0s;
     }
 }

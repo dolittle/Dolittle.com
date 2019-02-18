@@ -1,6 +1,6 @@
 .fh5co-nav-toggle {
-    width: 25px;
-    height: 25px;
+    width: 1.5625rem;
+    height: 1.5625rem;
     cursor: pointer;
     text-decoration: none;
     &.active i {
@@ -18,19 +18,19 @@
     i {
         position: relative;
         @include inline-block;
-        width: 25px;
-        height: 3px;
+        width: 1.5625rem;
+        height: 0.1875rem;
         color: $brand-primary;
-        font: bold 14px/0.4 Helvetica;
+        font: bold 0.875rem/0.4 Helvetica;
         text-transform: uppercase;
-        text-indent: -55px;
+        text-indent: -3.4375rem;
         background: $brand-primary;
         transition: all 0.2s ease-out;
         &::before,
         &::after {
             content: '';
-            width: 25px;
-            height: 3px;
+            width: 1.5625rem;
+            height: 0.1875rem;
             background: $brand-primary;
             position: absolute;
             left: 0;
@@ -40,16 +40,16 @@
 }
 
 .fh5co-nav-toggle i::before {
-    top: -7px;
+    top: -0.4375rem;
 }
 .fh5co-nav-toggle i::after {
-    bottom: -7px;
+    bottom: -0.4375rem;
 }
 .fh5co-nav-toggle:hover i::before {
-    top: -10px;
+    top: -0.625rem;
 }
 .fh5co-nav-toggle:hover i::after {
-    bottom: -10px;
+    bottom: -0.625rem;
 }
 .fh5co-nav-toggle.active i {
     background: transparent;
@@ -64,17 +64,16 @@
 }
 .fh5co-nav-toggle {
     position: absolute;
-    top: 2px;
-    right: 0px;
+    top: 0.125rem;
+    right: 0;
     z-index: 21;
-    padding: 6px 0 0 0;
-    display: block;
+    padding: 0.375rem 0 0 0;
     margin: 0 auto;
     display: none;
-    height: 44px;
-    width: 25px;
+    height: 2.75rem;
+    width: 1.5625rem;
     border-bottom: none !important;
-    @media screen and (max-width: $screen-sm) {
+    @media screen and (max-width: $screen-xs-max) {
         display: block;
     }
 }

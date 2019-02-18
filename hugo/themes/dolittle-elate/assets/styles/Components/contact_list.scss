@@ -18,8 +18,9 @@
         width: 100%;
         position: relative;
         @include media-bp-min(tablet) {
-            flex: 0 0 20rem;
+            flex: 1 0 19rem;
             margin: $grid-gutter*1.5 $grid-gutter;
+            max-width: 26rem;
         }
         figure {
             margin-top: -5.75rem;

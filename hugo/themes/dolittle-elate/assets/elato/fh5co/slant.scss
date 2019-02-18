@@ -132,7 +132,10 @@
 
 .watch-video {
     text-align: center;
-    width: 75%;
+    width: 100%;
+    @include media-bp-min(tablet-landscape) {
+        width: 75%;
+    }
     display: block;
     margin: 0 auto;
     span {
