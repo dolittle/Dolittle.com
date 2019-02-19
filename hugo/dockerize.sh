@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t dolittle/beta .
+docker build -t dolittle/www .

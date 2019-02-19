@@ -1,3 +1,3 @@
 #!/bin/bash
-docker push dolittle/beta
-kubectl patch deployment beta --namespace dolittle -p "{\"spec\":{\"template\":{\"metadata\":{\"labels\":{\"date\":\"`date +'%s'`\"}}}}}"
+docker push dolittle/www
+kubectl patch deployment www --namespace dolittle -p "{\"spec\":{\"template\":{\"metadata\":{\"labels\":{\"date\":\"`date +'%s'`\"}}}}}"

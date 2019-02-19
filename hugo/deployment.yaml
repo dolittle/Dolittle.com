@@ -2,18 +2,18 @@
   kind: Deployment
   apiVersion: extensions/v1beta1
   metadata:
-    name: beta
+    name: www
     namespace: dolittle
   spec:
     template:
       metadata:
         labels:
-          app: beta
-          name: beta
+          app: www
+          name: www
       spec:
         containers:
-        - name: beta
-          image: dolittle/beta
+        - name: www
+          image: dolittle/www
           imagePullPolicy: Always
           ports:
           - containerPort: 80
@@ -21,32 +21,32 @@
   apiVersion: v1
   kind: Service
   metadata:
-    name: beta
+    name: www
     namespace: dolittle
     labels:
-      app: beta
+      app: www
   spec:
     ports:
     - port: 80
       targetPort: 80
-      name: beta-port
+      name: www-port
       protocol: TCP
     selector:
-      app: beta
-      name: beta
+      app: www
+      name: www
 ---
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: beta
+  name: www
   namespace: dolittle
 spec:
   rules:
-  - host: beta.dolittle.com
+  - host: www.dolittle.com
     http:
       paths:
       - path: /
         backend:
-          serviceName: beta
+          serviceName: www
           servicePort: 80        
   

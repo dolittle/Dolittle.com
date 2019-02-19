@@ -18,7 +18,7 @@ COPY . /site
 RUN mkdir content
 
 RUN npm install
-RUN hugo --config config.beta.toml --environment production
+RUN hugo --config config.production.toml --environment production
 
 
 FROM nginx
