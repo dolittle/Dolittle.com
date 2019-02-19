@@ -58,7 +58,7 @@ theme = "dolittle-elate"
     url = "https://www.npmjs.com/package/@dolittle/cli"
     button = "Download"
     icon = "icon-bulb"
-    img = "img_7.jpg" # TODO:
+    img = "" # TODO:
 
   [[params.intro.item]]
     title = "Quickstart"
@@ -66,7 +66,7 @@ theme = "dolittle-elate"
     url = "https://dolittle.io/getting-started/quickstart/"
     button = "Getting me started"
     icon = "icon-wrench"
-    img = "img_8.jpg" # TODO:
+    img = "" # TODO:
 
   [[params.intro.item]]
     title = "Sign up"
@@ -74,7 +74,7 @@ theme = "dolittle-elate"
     url = "https://signup.dolittle.com/"
     button = "Sign up"
     icon = "icon-rocket"
-    img = "img_10.jpg" # TODO:
+    img = "" # TODO:
 
   [params.intro.video]
     enable = true
