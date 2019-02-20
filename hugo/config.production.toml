@@ -56,21 +56,21 @@ theme = "dolittle-elate"
     title = "Install"
     description = "> npm i -g @dolittle/cli"
     url = "https://www.npmjs.com/package/@dolittle/cli"
-    button = "Download"
+    button = "Install"
     icon = "icon-bulb"
     img = "" # TODO:
 
   [[params.intro.item]]
     title = "Quickstart"
-    description = "We have written a quickstart guide at GitHub"
+    description = "Get up and running with the quickstart guide"
     url = "https://dolittle.io/getting-started/quickstart/"
-    button = "Getting me started"
+    button = "Get Started"
     icon = "icon-wrench"
     img = "" # TODO:
 
   [[params.intro.item]]
-    title = "Sign up"
-    description = "Sign up to get notified when we release new and awsome improved tools."
+    title = "Newsletter"
+    description = "Sign up to be notified of updates and awsome improved tools."
     url = "https://signup.dolittle.com/"
     button = "Sign up"
     icon = "icon-rocket"
