@@ -44,8 +44,8 @@ theme = "dolittle-elate"
   
   # Hero section
   [params.hero]
-    title = "How do you do less?"
-    subtitle = 'Dolittle'
+    title = "Develop and Host your Line of Business Applications"
+    subtitle = "Open-Sourced & Event-Driven Microservices Platform"
     background_image = 'images/rawpixel-652593-unsplash_web.jpg'
  
   # Intro section
