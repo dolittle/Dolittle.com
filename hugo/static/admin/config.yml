@@ -1,6 +1,7 @@
 backend:
   name: github
   branch: master # Branch to update (optional; defaults to master)
+  repo: dolittle/dolittle.com
 
 
 publish_mode: editorial_workflow
