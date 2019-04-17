@@ -20,7 +20,7 @@ theme = "dolittle-elate"
     work = "Work"
     testimonials = "Testimonials"
     services = "Services"
-    about = "About"
+    about = "Employees"
     contact = "Contact"
 
     # You can add custom links before or after the default links
@@ -181,7 +181,7 @@ theme = "dolittle-elate"
   # About section
   [params.about]
     enable = true
-    title = "About"
+    title = "Employees"
     description = ""
 
      [[params.about.item]]
