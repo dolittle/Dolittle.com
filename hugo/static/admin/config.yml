@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
+logo_url: https://www.dolittle.com/images/Logos/dolittle_positiv_horisontal.svg
 media_folder: "hugo/static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
@@ -12,7 +13,24 @@ collections:
     create: false # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "SubTitle", name: "subtitle", widget: "string"}
-      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "SubTitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+  - name: "employee"
+    label: "Employee"
+    folder: "hugo/content/employee"
+    create: true
+    fields:
+      - {label: "Full name", name: "name", widget: "string"}
+      - {label: "Title", name: "workTitle", widget: "string"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Start date", name: "publishdate", widget: "date"}
+      - label: "Social media"
+        name: "some"
+        widget: "object"
+        fields:
+          - {label: "Twitter", name: "twitter", widget: "string"}
+          - {label: "LinkedIn", name: "linkedin", widget: "string"}
+          - {label: "GitHub", name: "github", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean"}
 
