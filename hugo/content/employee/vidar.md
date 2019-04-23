@@ -1,15 +1,15 @@
 ---
-name: Einar
-position: CTO
+name: Vidar Aune Westrum
+position: Design Lead
 description: >-
-  23 years of enterprise software development. One of Microsoft highest rewarded
-  cloud architects globally. Main developer of Dolittle open source platform.
-photo: /images/uploads/einar.jpg
-publishdate: 2017-12-29T14:00:22.371Z
+  13 years of experience with enterprise web solutions with both internal and
+  external users as the target. UX and UI as the main focus.
+photo: /images/uploads/vidar.jpg
+publishdate: 2018-01-01T14:00:22.371Z
 some:
-  github: einari
-  linkedin: einari
-  twitter: einari
+  github: ''
+  linkedin: vidar-aune-westrum
+  twitter: virrum
 draft: false
 ---
 
