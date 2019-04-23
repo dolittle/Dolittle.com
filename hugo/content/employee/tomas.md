@@ -1,15 +1,16 @@
 ---
-name: Einar
-position: CTO
+name: Tomas Ekeli
+position: Customer Success Lead
 description: >-
-  23 years of enterprise software development. One of Microsoft highest rewarded
-  cloud architects globally. Main developer of Dolittle open source platform.
-photo: /images/uploads/einar.jpg
-publishdate: 2017-12-29T14:00:22.371Z
+  12 years of enterprise software development within bank/finance, telecom,
+  data-analysis, ground-handling and eCommerce. Worked the last 6 years as Lead
+  Software Architect at Komplett Group.
+photo: /images/uploads/tomas.jpg
+publishdate: 2018-04-01T13:00:22.371Z
 some:
-  github: einari
-  linkedin: einari
-  twitter: einari
+  github: ''
+  linkedin: tomasekeli
+  twitter: tomasekeli
 draft: false
 ---
 
