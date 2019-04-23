@@ -1,15 +1,16 @@
 ---
-name: Michael Smith
-position: CSO
+name: Jakob Høgenes
+position: Senior platform and automation engineer
 description: >-
-  17 years of enterprise software development using event-driven design
-  principles. Part of the core team developing Dolittle open source platform.
-photo: /images/uploads/michael.jpg
-publishdate: 2017-12-31T14:00:22.371Z
+  Master’s degree in Engineering Cybernetics (robotics) from 2015. Worked as a
+  researcher on model-based software engineering, focusing on IoT and CPS
+  applications.
+photo: /images/uploads/jakob.jpg
+publishdate: 2018-11-01T14:00:22.371Z
 some:
   github: ''
-  linkedin: smithmx
-  twitter: WolfieBhoy
+  linkedin: jakob-høgenes-9a878b122/
+  twitter: jakobgrylls
 draft: false
 ---
 
