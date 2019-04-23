@@ -1,15 +1,15 @@
 ---
-name: Einar
-position: CTO
+name: Tore Eggen
+position: EVP Product
 description: >-
-  23 years of enterprise software development. One of Microsoft highest rewarded
-  cloud architects globally. Main developer of Dolittle open source platform.
-photo: /images/uploads/einar.jpg
-publishdate: 2017-12-29T14:00:22.371Z
+  20 years of products development across broadband, eLearning and recently
+  smart home hardware and software products. He is part of our leadership team.
+photo: /images/uploads/tore.jpg
+publishdate: 2018-06-02T13:00:22.371Z
 some:
-  github: einari
-  linkedin: einari
-  twitter: einari
+  github: ''
+  linkedin: toreeggen
+  twitter: toreeggen
 draft: false
 ---
 
