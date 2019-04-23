@@ -1,5 +1,5 @@
 ---
-name: Einar Ingebrigtsen
+name: Einar
 position: CTO
 description: >-
   23 years of enterprise software development. One of Microsoft highest rewarded
@@ -12,3 +12,4 @@ some:
   twitter: einari
 draft: false
 ---
+

@@ -6,18 +6,18 @@
 		</div>
     </div>
     <ul class="contact_list">
-        {{range.Site.Params.about.item}}
+        {{range (where .Pages.ByPublishDate "Type" "employee")}}
         <li class="fh5co-person text-center to-animate">
-            <figure><img src="images/profiles/{{ .img }}" alt="{{ .alt }}" /></figure>
-            <h3>{{ .name | markdownify }}</h3>
-            <span class="fh5co-position">{{ .position | markdownify }}</span>
-            <p>{{ .description | markdownify }}</p>
+            <figure><img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" /></figure>
+            <h3>{{ .Params.name | markdownify }}</h3>
+            <span class="fh5co-position">{{ .Params.position | markdownify }}</span>
+            <p>{{ .Params.description | markdownify }}</p>
             <ul class="social social-circle">
-                {{range.social}}
+                <!-- {{range.Params.some}}
                 <li>
                     <a href="{{ index . 1 }}"><i class="{{ index .  0 }}"></i></a>
                 </li>
-                {{end}}
+                {{end}} -->
             </ul>
         </li>
         {{end}}

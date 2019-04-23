@@ -24,7 +24,7 @@ collections:
     create: true
     fields:
       - {label: "Full name", name: "name", widget: "string"}
-      - {label: "Title", name: "workTitle", widget: "string"}
+      - {label: "Position", name: "position", widget: "string"}
       - {label: "Description", name: "description", widget: "text", required: false}
       - {label: "Photo", name: "photo", widget: "image"}
       - {label: "Start date", name: "publishdate", widget: "date"}
