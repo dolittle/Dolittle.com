@@ -1,15 +1,16 @@
 ---
-name: Einar
-position: CTO
+name: Sindre Alstad Wilting
+position: OSS Platform Engineer
 description: >-
-  23 years of enterprise software development. One of Microsoft highest rewarded
-  cloud architects globally. Main developer of Dolittle open source platform.
-photo: /images/uploads/einar.jpg
-publishdate: 2017-12-29T14:00:22.371Z
+  Computer Science graduate in 2018, with experience in open source software
+  development and an interest in cloud-based solutions and software
+  architecture.
+photo: /images/uploads/sindre.jpg
+publishdate: 2018-06-01T13:00:22.371Z
 some:
-  github: einari
-  linkedin: einari
-  twitter: einari
+  github: ''
+  linkedin: sindrewilting
+  twitter: SindreWilting
 draft: false
 ---
 
