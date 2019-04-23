@@ -13,10 +13,12 @@ collections:
     create: false # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "SubTitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Heading", name: "heading", widget: "string"}
+      - {label: "Sub header", name: "subheading", widget: "string", required: false}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
   - name: "employee"
+    identifier_field: "name"
     label: "Employee"
     folder: "hugo/content/employee"
     create: true
@@ -24,13 +26,14 @@ collections:
       - {label: "Full name", name: "name", widget: "string"}
       - {label: "Title", name: "workTitle", widget: "string"}
       - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Photo", name: "photo", widget: "image"}
       - {label: "Start date", name: "publishdate", widget: "date"}
       - label: "Social media"
         name: "some"
         widget: "object"
         fields:
-          - {label: "Twitter", name: "twitter", widget: "string"}
-          - {label: "LinkedIn", name: "linkedin", widget: "string"}
-          - {label: "GitHub", name: "github", widget: "string"}
+          - {label: "Twitter", name: "twitter", widget: "string", required: false}
+          - {label: "LinkedIn", name: "linkedin", widget: "string", required: false}
+          - {label: "GitHub", name: "github", widget: "string", required: false}
       - {label: "Draft", name: "draft", widget: "boolean"}
 
