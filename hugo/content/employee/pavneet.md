@@ -1,15 +1,16 @@
 ---
-name: Einar
-position: CTO
+name: Pavneet Singh Saund
+position: User Experience Lead
 description: >-
-  23 years of enterprise software development. One of Microsoft highest rewarded
-  cloud architects globally. Main developer of Dolittle open source platform.
-photo: /images/uploads/einar.jpg
-publishdate: 2017-12-29T14:00:22.371Z
+  12 years of enterprise software development. Member of the core development
+  team at Komplett Group as Technical Team Lead. Focused on creating great user
+  experiences through attending to folks needs.
+photo: /images/uploads/pav.jpg
+publishdate: 2018-03-01T14:00:22.371Z
 some:
-  github: einari
-  linkedin: einari
-  twitter: einari
+  github: ''
+  linkedin: pavneet
+  twitter: pavsaund
 draft: false
 ---
 
