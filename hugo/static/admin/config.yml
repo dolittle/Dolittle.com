@@ -59,4 +59,4 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Youtube ID", name: "youtube_id", widget: "string"}
-      - {label: "Publish date", name: "publishDate", widget: "string"}
+      - {label: "Publish date", name: "publishDate", widget: "date"}
