@@ -36,7 +36,7 @@ collections:
           - {label: "LinkedIn", name: "linkedin", widget: "string", required: false}
           - {label: "GitHub", name: "github", widget: "string", required: false}
       - {label: "Draft", name: "draft", widget: "boolean"}
-  - name: "introItem"
+  - name: "introitem"
     label: "Intro item"
     folder: "hugo/content/introitem"
     create: true
@@ -52,3 +52,11 @@ collections:
           - {label: "URL", name: "url", widget: "string", required: false}
           - {label: "Text", name: "text", widget: "string", required: false}
       - {label: "Order", name: "weight", widget: "number"}
+  - name: "introvideo"
+    label: "Intro Video"
+    folder: "hugo/content/introvideo"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Youtube ID", name: "youtube_id", widget: "string"}
+      - {label: "Publish date", name: "publishDate", widget: "string"}
