@@ -1,9 +1,9 @@
 <section id="fh5co-about" data-section="about">
     <div class="section-heading text-center">
         <h2 class="to-animate">{{ with.Site.Params.about.title }}{{ . | markdownify }}{{ end }}</h2>
-		<div class="col-md-8 col-md-offset-2 subtext to-animate">
-			<h3>{{ with.Site.Params.about.description }}{{ . | markdownify }}{{ end }}</h3>
-		</div>
+        <div class="col-md-8 col-md-offset-2 subtext to-animate">
+            <h3>{{ with.Site.Params.about.description }}{{ . | markdownify }}{{ end }}</h3>
+        </div>
     </div>
     <ul class="contact_list">
         {{range (where .Pages.ByPublishDate "Type" "employee")}}
@@ -13,13 +13,23 @@
             <span class="fh5co-position">{{ .Params.position | markdownify }}</span>
             <p>{{ .Params.description | markdownify }}</p>
             <ul class="social social-circle">
-                <!-- {{range.Params.some}}
+                {{ if .Params.some.twitter}}
                 <li>
-                    <a href="{{ index . 1 }}"><i class="{{ index .  0 }}"></i></a>
+                    <a href="https://www.linkedin.com/in/{{.Params.some.linkedin}}"><i class="icon-linkedin"></i></a>
                 </li>
-                {{end}} -->
+                {{ end }}
+                {{ if .Params.some.linkedin}}
+                <li>
+                    <a href="https://twitter.com/{{.Params.some.twitter}}/"><i class="icon-twitter"></i></a>
+                </li>
+                {{ end }}
+                {{ if .Params.some.github}}
+                <li>
+                    <a href="https://github.com/{{.Params.some.github}}/"><i class="icon-github"></i></a>
+                </li>
+                {{ end }}
             </ul>
         </li>
-        {{end}}
+        {{ end }}
     </ul>
 </section>

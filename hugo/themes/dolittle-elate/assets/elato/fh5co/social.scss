@@ -3,8 +3,11 @@
     padding: 0;
     margin: 0;
     display: inline-block;
-    position: relative;
+    position: absolute;
     width: 100%;
+    left: 0;
+    right: 0;
+    bottom: $grid-gutter;
     li {
         list-style: none;
         padding: 0;
