@@ -40,5 +40,11 @@
             display: block;
             margin-bottom: 1.25rem;
         }
+        .social{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: $grid-gutter;
+                }
     }
 }
