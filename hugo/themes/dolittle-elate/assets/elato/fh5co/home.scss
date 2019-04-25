@@ -17,11 +17,14 @@
         z-index: 2;
         opacity: 0.9;
         -webkit-backface-visibility: hidden; // for Chrome Windows
-		background-image: repeating-linear-gradient(to bottom right,$color-brand-dark-blue 0%,$color-brand-orange 100%);
+        background-image: repeating-linear-gradient(to bottom right, $color-brand-dark-blue 0%, $color-brand-orange 100%);
     }
     &,
     .text-wrap {
-        height: 70vh;
+        height: 80vh;
+        @media screen and (min-width: $screen-sm) {
+            height: 70vh;
+        }
     }
     .text-wrap {
         display: table;
