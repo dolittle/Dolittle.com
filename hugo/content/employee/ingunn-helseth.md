@@ -5,6 +5,6 @@ description: 20 years’ of experience from the maritime industry in both Norway
 photo: /images/uploads/ingunnhelseth_small.jpg
 publishdate: 2019-05-01T10:57:28.814Z
 some: {}
-draft: true
+draft: false
 ---
 
