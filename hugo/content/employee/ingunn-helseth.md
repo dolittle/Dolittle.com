@@ -1,10 +1,14 @@
 ---
 name: Ingunn Helseth
 position: Senior Product Manager
-description: 20 years’ of experience from the maritime industry in both Norway and the USA.
+description: >-
+  More than 20 years in the maritime industry working as Project and Product
+  Manager, developing innovative solutions for safe vessel operations.
 photo: /images/uploads/ingunnhelseth_small.jpg
 publishdate: 2019-05-01T10:57:28.814Z
-some: {}
+some:
+  linkedin: 'https://www.linkedin.com/in/ikhelseth/'
+  twitter: 'https://twitter.com/Ikhelseth'
 draft: false
 ---
 
