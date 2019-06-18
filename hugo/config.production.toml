@@ -41,6 +41,11 @@ theme = "dolittle-elate"
      url = "https://medium.com/dolittle"
      name = "Blog"
      weight = 11
+    
+    [[menu.postpend]]
+     url = "https://github.com/dolittle/Home"
+     name = "Github"
+     weight = 12
   
   # Hero section
   [params.hero]
