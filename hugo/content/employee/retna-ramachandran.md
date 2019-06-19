@@ -9,7 +9,7 @@ description: >-
 photo: /images/uploads/retna.jpg
 publishdate: 2019-07-01T06:55:15.215Z
 some:
-  linkedin: 'https://www.linkedin.com/in/retna-ramachandran-4814623/'
+  linkedin: retna-ramachandran-4814623
 draft: true
 ---
 
