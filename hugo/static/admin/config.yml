@@ -32,10 +32,11 @@ collections:
       - label: "Social media"
         name: "some"
         widget: "object"
+        hint: "Only the userpart of the URL"
         fields:
-          - {label: "Twitter", name: "twitter", widget: "string", required: false}
-          - {label: "LinkedIn", name: "linkedin", widget: "string", required: false}
-          - {label: "GitHub", name: "github", widget: "string", required: false}
+          - {label: "Twitter handle", , name: "twitter", widget: "string", required: false}
+          - {label: "LinkedIn username", name: "linkedin", widget: "string", required: false}
+          - {label: "GitHub username", name: "github", widget: "string", required: false}
       - {label: "Draft", name: "draft", widget: "boolean"}
   - name: "introitem"
     label: "Intro item"
