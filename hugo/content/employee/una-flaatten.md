@@ -8,7 +8,7 @@ description: >-
 photo: /images/uploads/unalinkedin.jpg
 publishdate: 2019-07-01T07:08:28.948Z
 some:
-  linkedin: 'https://www.linkedin.com/in/unahf/'
+  linkedin: unahf
 draft: false
 ---
 
