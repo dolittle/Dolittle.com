@@ -13,12 +13,12 @@
             <span class="fh5co-position">{{ .Params.position | markdownify }}</span>
             <p>{{ .Params.description | markdownify }}</p>
             <ul class="social social-circle">
-                {{ if .Params.some.twitter}}
+                {{ if .Params.some.linkedin}}
                 <li>
                     <a href="https://www.linkedin.com/in/{{.Params.some.linkedin}}"><i class="icon-linkedin"></i></a>
                 </li>
                 {{ end }}
-                {{ if .Params.some.linkedin}}
+                {{ if .Params.some.twitter}}
                 <li>
                     <a href="https://twitter.com/{{.Params.some.twitter}}/"><i class="icon-twitter"></i></a>
                 </li>
