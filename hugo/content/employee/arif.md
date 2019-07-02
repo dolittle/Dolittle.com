@@ -7,7 +7,7 @@ description: >-
 photo: /images/uploads/arif.jpg
 publishdate: 2017-12-30T14:00:22.371Z
 some:
-  github: arifsh
+  github: arisha
   linkedin: arifsh
   twitter: arifsh
 draft: false
