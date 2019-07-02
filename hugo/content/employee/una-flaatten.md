@@ -7,6 +7,8 @@ description: >-
   Gas, Energy and Insurance.
 photo: /images/uploads/una.jpeg
 publishdate: 2019-07-01T07:08:28.948Z
+some:
+  linkedin: 'https://www.linkedin.com/in/unahf/'
 draft: false
 ---
 
