@@ -10,6 +10,7 @@ photo: /images/uploads/retnalinkedin.jpg
 publishdate: 2019-07-01T06:55:15.215Z
 some:
   linkedin: retna-ramachandran-4814623
+  twitter: _RetnaR
 draft: false
 ---
 
