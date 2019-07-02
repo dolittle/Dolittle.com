@@ -7,7 +7,7 @@ description: >-
 photo: /images/uploads/michael.jpg
 publishdate: 2017-12-31T14:00:22.371Z
 some:
-  github: ''
+  github: smithmx
   linkedin: smithmx
   twitter: WolfieBhoy
 draft: false
