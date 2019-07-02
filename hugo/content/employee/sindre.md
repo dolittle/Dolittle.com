@@ -8,7 +8,7 @@ description: >-
 photo: /images/uploads/sindre.jpg
 publishdate: 2018-06-01T13:00:22.371Z
 some:
-  github: ''
+  github: woksin
   linkedin: sindrewilting
   twitter: SindreWilting
 draft: false
