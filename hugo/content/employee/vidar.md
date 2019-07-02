@@ -7,7 +7,7 @@ description: >-
 photo: /images/uploads/vidar.jpg
 publishdate: 2018-01-01T14:00:22.371Z
 some:
-  github: ''
+  github: Virrum
   linkedin: vidar-aune-westrum
   twitter: virrum
 draft: false
