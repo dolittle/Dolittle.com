@@ -188,108 +188,7 @@ theme = "dolittle-elate"
     title = "Employees"
     description = ""
 
-     [[params.about.item]]
-      name = "Einar Ingebrigtsen"
-      position = "CTO"
-      description = "23 years of enterprise software development. One of Microsoft highest rewarded cloud architects globally. Main developer of Dolittle open source platform."
-      img = "Einar.jpg"
-      alt = "Profile photo of Einar"
-      social = [
-        ["icon-twitter", "https://twitter.com/einari"],
-        ["icon-linkedin", "https://www.linkedin.com/in/einari/"]
-      ]
-
-    [[params.about.item]]
-      name = "Arif Shafique"
-      position = "CEO"
-      description = "20 years in the industry with product development background. 12 years in Microsoft help building SaaS businesses with Nordic software companies."
-      img = "Arif.jpg"
-      alt = "Profile photo of Arif"
-      social = [
-        ["icon-twitter", "https://twitter.com/arifsh"],
-        ["icon-linkedin", "https://www.linkedin.com/in/arifsh/"]
-      ]
-
-    [[params.about.item]]
-      name = "Michael Smith"
-      position = "Chief Success Officer"
-      description = "17 years of enterprise software development using event-driven design principles. Part of the core team developing Dolittle open source platform."
-      img = "Michael.jpg"
-      alt = "Profile photo of Michael"
-      social = [
-        ["icon-twitter", "https://twitter.com/WolfieBhoy"],
-        ["icon-linkedin", "https://www.linkedin.com/in/smithmx/"]
-      ]      
-    [[params.about.item]]
-      name = "Vidar Aune Westrum"
-      position = "Design Lead"
-      description = "13 years of experience with enterprise web solutions with both internal and external users as the target. UX and UI as the main focus."
-      img = "Vidar.jpg"
-      alt = "Profile photo of Vidar"
-      social = [
-        ["icon-twitter", "https://twitter.com/virrum"],
-        ["icon-linkedin", "https://www.linkedin.com/in/vidar-aune-westrum/"]
-      ]      
-    [[params.about.item]]
-      name = "Petri Wilhelmsen"
-      position = "VP Digital Twin"
-      description = "12 years of development using 3D technology. Senior Program Manager in Windows team Redmond working on digital twin using HoloLens, AR and VR."
-      img = "Petri.jpg"
-      alt = "Profile photo of Petri"
-      social = [
-        ["icon-twitter", "https://twitter.com/petriw"],
-        ["icon-linkedin", "https://www.linkedin.com/in/petriw/"]
-      ]      
-    [[params.about.item]]
-      name = "Pavneet Singh Saund"
-      position = "User Experience Lead"
-      description = "12 years of enterprise software development. Member of the core development team at Komplett Group as Technical Team Lead. Focused on creating great user experiences through attending to folks needs."
-      img = "Pav.jpg"
-      alt = "Profile photo of Pavneet"
-      social = [
-        ["icon-twitter", "https://twitter.com/pavsaund"],
-        ["icon-linkedin", "https://www.linkedin.com/in/pavneet/"]
-      ]      
-    [[params.about.item]]
-      name = "Tomas Ekeli"
-      position = "Customer Success Lead"
-      description = "12 years of enterprise software development within bank/finance, telecom, data-analysis, ground-handling and eCommerce. Worked the last 6 years as Lead Software Architect at Komplett Group."
-      img = "Tomas.jpg"
-      alt = "Profile photo of Tomas"
-      social = [
-        ["icon-twitter", "https://twitter.com/tomasekeli"],
-        ["icon-linkedin", "https://www.linkedin.com/in/tomasekeli/"]
-      ]      
-    [[params.about.item]]
-      name = "Sindre Alstad Wilting"
-      position = "OSS Platform Engineer"
-      description = "Computer Science graduate in 2018, with experience in open source software development and an interest in cloud-based solutions and software architecture."
-      img = "Sindre.jpg"
-      alt = "Profile photo of Sindre"
-      social = [
-        ["icon-twitter", "https://twitter.com/SindreWilting"],
-        ["icon-linkedin", "https://www.linkedin.com/in/sindrewilting/"]
-      ]      
-    [[params.about.item]]
-      name = "Tore Eggen"
-      position = "EVP Product"
-      description = "20 years of products development across broadband, eLearning and recently smart home hardware and software products. He is part of our leadership team."
-      img = "Tore.jpg"
-      alt = "Profile photo of Tore"
-      social = [
-        ["icon-twitter", "https://twitter.com/toreeggen"],
-        ["icon-linkedin", "https://www.linkedin.com/in/toreeggen/"]
-      ]      
-    [[params.about.item]]
-      name = "Jakob Høgenes"
-      position = "Senior platform and automation engineer"
-      description = "Master's degree in Engineering Cybernetics (robotics) from 2015. Worked as a researcher on model-based software engineering, focusing on IoT and CPS applications."
-      img = "Jakob.jpg"
-      alt = "Profile photo of Jakob"
-      social = [
-        ["icon-twitter", "https://twitter.com/jakobgrylls"],
-        ["icon-linkedin", "https://www.linkedin.com/in/jakob-høgenes-9a878b122/"]
-      ]      
+ 
 
   # Counters section
   [params.counters]
@@ -339,7 +238,8 @@ theme = "dolittle-elate"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "<strong>Sandefjord Office</strong><br />Leif Weldings vei 18, 3208 Sandefjord <br /><br /><strong>Oslo Office</strong><br />Strandveien 20, 1366 Lysaker <br/>Norway"],
+        ["icon-home", "Strandveien 20, 1366 Lysaker, Norway"],
+        ["icon-key", "Org. no. 920 347 975"],
         ["icon-envelope", "<a href='mailto:yo@dolittle.com?Subject=Yo, I want to do less'>yo@dolittle.com</a>"]
       ]
 
