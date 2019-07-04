@@ -232,9 +232,10 @@ theme = "dolittle-elate"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "<strong>Sandefjord Office</strong><br />Leif Weldings vei 18, 3208 Sandefjord <br /><br /><strong>Oslo Office</strong><br />Strandveien 20, 1366 Lysaker <br/>Norway"],
+        ["icon-home", "Strandveien 20, 1366 Lysaker, Norway"],
+        ["icon-key", "Org. no. 920 347 975"],
         ["icon-envelope", "<a href='mailto:yo@dolittle.com?Subject=Yo, I want to do less'>yo@dolittle.com</a>"]
-    ]
+      ]
 
     name = "Name"
     email = "Email"
