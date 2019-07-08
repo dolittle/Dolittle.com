@@ -1,5 +1,5 @@
 ---
-name: Ingunn Helseth
+name: Ingunn Klerck Helseth
 position: Senior Product Manager
 description: >-
   More than 20 years in the maritime industry, working as a Project and Product
