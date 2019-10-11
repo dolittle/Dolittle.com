@@ -11,7 +11,7 @@
     <body class="legal">
         <header>
             <a href="/" class="site-logo"><img src="/images/Logos/dolittle_positiv_horisontal.svg" alt="Dolittle logo"/></a>
-            <p class="updated">Updated: {{dateFormat "Jan 1, 2019" .Params.updated }}</p>
+            <p class="updated">Updated: {{dateFormat "Jan 2, 2006" .Params.updated }}</p>
         </header>
         <main>
             {{.Params.content | markdownify}}
