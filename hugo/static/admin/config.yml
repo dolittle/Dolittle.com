@@ -60,3 +60,11 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Youtube ID", name: "youtube_id", widget: "string"}
       - {label: "Publish date", name: "publishDate", widget: "date"}
+  - name: "legal"
+    label: "Legal document"
+    folder: "hugo/content/legal"
+    create: true
+    fields: 
+      - {label: "Title", name: "title", widget: "string" }
+      - {label: "Last updates", name: "updated", widget: "date" }
+      - {label: "Content", name: "content", widget: "markdown" }
