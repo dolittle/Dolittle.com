@@ -14,7 +14,7 @@
             <p class="updated">Updated: {{dateFormat "Jan 1, 2019" .Params.updated }}</p>
         </header>
         <main>
-            {{.Params.content}}
+            {{.Params.content | markdownify}}
         </main>
     </body>
 </html>
