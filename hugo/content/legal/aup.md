@@ -24,7 +24,7 @@ content: >-
   If you become aware of any violation of this Policy, you are obliged to notify
   Dolittle AS immediately and provide Dolittle AS with assistance, as requested,
   to identify the location of the, to stop or remedy the violation. Please
-  report any violation of this Policy to Email: support@Dolittle.no or Phone:
+  report any violation of this Policy to Email: support@dolittle.com or Phone:
   +47 90966858.
 
 
