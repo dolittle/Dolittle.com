@@ -20,6 +20,14 @@
     margin-left: auto;
     margin-top: auto;
 }
+
+.legal header > .updated small {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 500;
+    margin-right: 0.6rem;
+}
+
 @media screen {
     .legal header,
     .legal main {
@@ -34,7 +42,7 @@
         width: 100%;
         height: 3cm;
         margin-bottom: 1.6cm;
-       }
+    }
     .site-logo::after {
         display: none;
     }
