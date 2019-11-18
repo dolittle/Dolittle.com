@@ -1,6 +1,6 @@
 ---
 name: Tore Eggen
-position: EVP Product
+position: VP Products
 description: >-
   20 years of products development across broadband, eLearning and recently
   smart home hardware and software products. He is part of our leadership team.
