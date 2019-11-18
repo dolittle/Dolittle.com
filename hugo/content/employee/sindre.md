@@ -1,6 +1,6 @@
 ---
 name: Sindre Alstad Wilting
-position: OSS Platform Engineer
+position: Platform Engineer
 description: >-
   Computer Science graduate in 2018, with experience in open source software
   development and an interest in cloud-based solutions and software
