@@ -1,6 +1,6 @@
 ---
 name: Jakob Høgenes
-position: Senior platform and automation engineer
+position: Lead Platform Engineer
 description: >-
   Master’s degree in Engineering Cybernetics (robotics) from 2015. Worked as a
   researcher on model-based software engineering, focusing on IoT and CPS
