@@ -1,6 +1,6 @@
 ---
 name: Michael Smith
-position: Chief Success Officer
+position: CSU Tech Lead
 description: >-
   17 years of enterprise software development using event-driven design
   principles. Part of the core team developing Dolittle open source platform.
