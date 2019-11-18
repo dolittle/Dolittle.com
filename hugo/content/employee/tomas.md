@@ -1,6 +1,6 @@
 ---
 name: Tomas Ekeli
-position: Customer Success Lead
+position: CSU Tech Lead
 description: >-
   12 years of enterprise software development within bank/finance, telecom,
   data-analysis, ground-handling and eCommerce. Worked the last 6 years as Lead
