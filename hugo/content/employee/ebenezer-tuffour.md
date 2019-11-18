@@ -1,6 +1,6 @@
 ---
 name: Ebenezer Tuffour
-position: Front-End Developer
+position: Front-End Engineer
 description: >-
   Ebenezer has worked over five years for companies like BAE system, Capgemini
   and others as a front-end developer. 
