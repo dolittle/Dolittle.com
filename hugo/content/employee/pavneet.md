@@ -1,6 +1,6 @@
 ---
 name: Pavneet Singh Saund
-position: User Experience Lead
+position: Senior Front-end Developer
 description: >-
   12 years of enterprise software development. Member of the core development
   team at Komplett Group as Technical Team Lead. Focused on creating great user
