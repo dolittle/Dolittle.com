@@ -54,17 +54,15 @@
             }
         }
         h1 {
-            font-size: 2rem;
-            @media screen and (min-width: $screen-sm) {
-                font-size: 3.125rem;
-            }
+            font-size: 1.75rem;
+      
             color: rgba(255, 255, 255, 1);
             margin: 0 0 20px 0;
         }
         h2 {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             @media screen and (min-width: $screen-sm) {
-                font-size: 1.75rem;
+                font-size: 1.5rem;
             }
             line-height: 38px;
             font-weight: 300;

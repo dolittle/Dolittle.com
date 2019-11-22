@@ -120,7 +120,7 @@
                 &.white {
                     display: block;
                 }
-                @media screen and (max-width: $screen-xs-max) {
+                @media screen and (max-width: $screen-sm-max) {
                     &.color {
                         display: block;
                     }
