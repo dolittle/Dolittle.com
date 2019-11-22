@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+  <head>
+    {{ partial "head.html" .Site.Home}}
+  </head>
+  <body>
+    {{ partial "nav.html" .}}
+    <section
+      id="fh5co-home"
+      data-section="home"
+      style="background-image: url({{ .Params.mainImage }});"
+      data-stellar-background-ratio="0.5"
+      class="smaller"
+    >
+      <div class="gradient"></div>
+      <div class="container">
+        <div class="text-wrap">
+          <div class="text-inner">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                  <h1>{{.Title}}</h1>
+                  <h2>{{.Params.intro}}</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slant"></div>
+    </section>
+    <main class="container main-body">
+      <div class="row">
+        <div class="col-xs-12">
+          {{.Params.content | markdownify}}
+        </div>
+      </div>
+    </main>
+
+    {{ if .Site.Params.footer.enable }} {{ partial "footer.html" .}} {{ end }}
+    {{ partial "js.html" .}}
+  </body>
+</html>

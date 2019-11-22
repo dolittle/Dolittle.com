@@ -1,27 +1,27 @@
 // Template Base
 body {
-    font-family: $font-primary;
-    font-weight: 300;
-    font-size: 100%;
-    line-height: 1.5;
-    color: lighten($brand-darker, 20%);
-    color: #7f7f7f;
-    background: $brand-bg-color;
-    height: 100%;
-    position: relative;
+  font-family: $font-primary;
+  font-weight: 300;
+  font-size: 100%;
+  line-height: 1.5;
+  color: lighten($brand-darker, 20%);
+  color: #7f7f7f;
+  background: $brand-bg-color;
+  height: 100%;
+  position: relative;
 }
 a {
+  color: $brand-primary;
+  transition: 0.5s;
+  &:hover,
+  &:active,
+  &:focus {
     color: $brand-primary;
-    transition: 0.5s;
-    &:hover,
-    &:active,
-    &:focus {
-        color: $brand-primary;
-        outline: none;
-    }
+    outline: none;
+  }
 }
 p {
-    margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 h1,
@@ -30,55 +30,60 @@ h3,
 h4,
 h5,
 h6 {
-    color: $brand-black;
-    font-family: $font-primary;
-    font-weight: 400;
-    margin: 0 0 30px 0;
+  color: $brand-black;
+  font-family: $font-primary;
+  font-weight: 400;
+  margin: 0 0 30px 0;
 }
 ::-webkit-selection {
-    color: $brand-body-color;
-    background: $brand-selection-color;
+  color: $brand-body-color;
+  background: $brand-selection-color;
 }
 
 ::-moz-selection {
-    color: $brand-body-color;
-    background: $brand-selection-color;
+  color: $brand-body-color;
+  background: $brand-selection-color;
 }
 
 ::selection {
-    color: $brand-body-color;
-    background: $brand-selection-color;
+  color: $brand-body-color;
+  background: $brand-selection-color;
 }
 
-
 .btn {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: 0.3s;
-    &.btn-primary {
-        background: $brand-primary;
-        color: $brand-white;
-        border: none !important;
-        border: 2px solid transparent !important;
-        &:hover,
-        &:active,
-        &:focus {
-            box-shadow: none;
-            background: $brand-primary;
-        }
-    }
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.3s;
+  &.btn-primary {
+    background: $brand-primary;
+    color: $brand-white;
+    border: none !important;
+    border: 2px solid transparent !important;
     &:hover,
     &:active,
     &:focus {
-        background: #393e46 !important;
-        color: $brand-white;
-        outline: none !important;
+      box-shadow: none;
+      background: $brand-primary;
     }
-    &.btn-default {
-        &:hover,
-        &:focus,
-        &:active {
-            border-color: transparent;
-        }
+  }
+  &:hover,
+  &:active,
+  &:focus {
+    background: #393e46 !important;
+    color: $brand-white;
+    outline: none !important;
+  }
+  &.btn-default {
+    &:hover,
+    &:focus,
+    &:active {
+      border-color: transparent;
     }
+  }
+}
+
+.main-body {
+  img {
+    max-width: 100%;
+  }
 }

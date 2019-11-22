@@ -1,204 +1,204 @@
 #fh5co-header {
-    // position: relative;
-    position: absolute;
-    z-index: 99;
-    width: 100%;
-    opacity: 1;
-    top: 0;
-    margin-top: 40px;
+  // position: relative;
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  opacity: 1;
+  top: 0;
+  margin-top: 40px;
 
-    @media screen and (max-width: $screen-sm) {
-        margin-top: 0;
-        background: $brand-white;
-        box-shadow: 0 0 0.5625rem 0 rgba(0, 0, 0, 0.1);
-        .navbar-brand {
-            color: $brand-primary !important;
-        }
-        #navbar {
-            li {
-                a {
-                    color: rgba(0, 0, 0, 0.5) !important;
-                    transition: 0.3s;
-                    &:hover {
-                        color: $brand-primary !important;
-                    }
-                    span {
-                        &:before {
-                            background: transparent !important;
-                        }
-                    }
-                }
-                &.active {
-                    a {
-                        background: transparent;
-                        background: none;
-                        color: $brand-primary !important;
-                        span {
-                            &:before {
-                                visibility: visible;
-                                transform: scaleX(1);
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .navbar {
-        padding-bottom: 0;
-        margin-bottom: 0;
+  @media screen and (max-width: $screen-sm) {
+    margin-top: 0;
+    background: $brand-white;
+    box-shadow: 0 0 0.5625rem 0 rgba(0, 0, 0, 0.1);
+    .navbar-brand {
+      color: $brand-primary !important;
     }
     #navbar {
-        li {
-            a {
-                font-family: $font-primary;
-                color: rgba(255, 255, 255, 0.5);
-                position: relative;
-                font-size: 1.1875rem;
-                font-weight: 300;
-                transition: 0.5s;
-                span {
-                    position: relative;
-                    display: block;
-                    padding-bottom: 2px;
-                    &:before {
-                        content: '';
-                        position: absolute;
-                        width: 100%;
-                        height: 2px;
-                        bottom: 0;
-                        left: 0;
-                        background-color: rgba(255, 255, 255, 0.5);
-                        visibility: hidden;
-                        transform: scaleX(0);
-                        transition: all 0.3s ease-in-out 0s;
-                    }
-                }
-                &:hover {
-                    color: $brand-white;
-                    span {
-                        &:before {
-                            visibility: visible;
-                            transform: scaleX(1);
-                        }
-                    }
-                }
+      li {
+        a {
+          color: rgba(0, 0, 0, 0.5) !important;
+          transition: 0.3s;
+          &:hover {
+            color: $brand-primary !important;
+          }
+          span {
+            &:before {
+              background: transparent !important;
             }
-            &.active {
-                a {
-                    background: transparent;
-                    background: none;
-                    color: $brand-white;
-                    span {
-                        &:before {
-                            visibility: visible;
-                            transform: scaleX(1);
-                        }
-                    }
-                }
-            }
+          }
         }
+        &.active {
+          a {
+            background: transparent;
+            background: none;
+            color: $brand-primary !important;
+            span {
+              &:before {
+                visibility: visible;
+                transform: scaleX(1);
+              }
+            }
+          }
+        }
+      }
     }
-    .navbar-brand {
-        float: left;
+  }
+  .navbar {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  #navbar {
+    li {
+      a {
+        font-family: $font-primary;
+        color: rgba(255, 255, 255, 0.5);
+        position: relative;
+        font-size: 1.1875rem;
+        font-weight: 300;
+        transition: 0.5s;
+        span {
+          position: relative;
+          display: block;
+          padding-bottom: 2px;
+          &:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(255, 255, 255, 0.5);
+            visibility: hidden;
+            transform: scaleX(0);
+            transition: all 0.3s ease-in-out 0s;
+          }
+        }
+        &:hover {
+          color: $brand-white;
+          span {
+            &:before {
+              visibility: visible;
+              transform: scaleX(1);
+            }
+          }
+        }
+      }
+      &.active {
+        a {
+          background: transparent;
+          background: none;
+          color: $brand-white;
+          span {
+            &:before {
+              visibility: visible;
+              transform: scaleX(1);
+            }
+          }
+        }
+      }
+    }
+  }
+  .navbar-brand {
+    float: left;
+    display: block;
+    padding: 0.6rem 0.5rem 0 0;
+    @media screen and (min-width: $screen-md) {
+      padding: 0;
+    }
+    figure {
+      height: 2.5rem;
+      @media screen and (min-width: $screen-md) {
+        height: 3.4375rem;
+      }
+      img {
         display: block;
-        padding: 0.6rem 0.5rem 0 0;
-        @media screen and (min-width: $screen-md) {
-            padding: 0;
+        height: 100%;
+        &.color {
+          display: none;
         }
-        figure {
-            height: 2.5rem;
-            @media screen and (min-width: $screen-md) {
-                height: 3.4375rem;
-            }
-            img {
-                display: block;
-                height: 100%;
-                &.color {
-                    display: none;
-                }
-                &.white {
-                    display: block;
-                }
-                @media screen and (max-width: $screen-sm-max) {
-                    &.color {
-                        display: block;
-                    }
-                    &.white {
-                        display: none;
-                    }
-                }
-            }
+        &.white {
+          display: block;
         }
-    }
-    &.navbar-fixed-top {
-        position: fixed;
-        background: $brand-white;
-        box-shadow: 0 0 0.5625rem 0 rgba(0, 0, 0, 0.1);
-        margin-top: 0;
-        top: 0;
-        .navbar-brand {
-            color: $brand-primary;
-            padding: 0.6rem 0.5rem 0 0;
-            figure {
-                height: 2.5rem;
-                img {
-                    &.color {
-                        display: block;
-                    }
-                    &.white {
-                        display: none;
-                    }
-                }
-            }
-        }
-        #navbar {
-            li {
-                a {
-                    color: rgba(0, 0, 0, 0.5);
-                    transition: 0.3s;
-                    &:hover {
-                        color: $brand-primary;
-                    }
-                }
-                &.active {
-                    a {
-                        background: transparent;
-                        background: none;
-                        color: $brand-primary;
-                        span {
-                            &:before {
-                                visibility: visible;
-                                transform: scaleX(1);
-                                background-color: $brand-primary;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .navbar-default {
-        border: transparent;
-        background: transparent;
-        border-radius: 0;
         @media screen and (max-width: $screen-sm) {
-            margin-top: 0;
-            padding-right: 0;
-            padding-left: 0;
+          &.color {
+            display: block;
+          }
+          &.white {
+            display: none;
+          }
         }
-        .brand-slogan {
-            margin: 1.75rem 0 0 0.9375rem;
-            float: left;
-            letter-spacing: 0.125rem;
-            color: #adadad;
-            em {
-                color: $brand-primary;
-                font-style: normal;
+      }
+    }
+  }
+  &.navbar-fixed-top {
+    position: fixed;
+    background: $brand-white;
+    box-shadow: 0 0 0.5625rem 0 rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+    top: 0;
+    .navbar-brand {
+      color: $brand-primary;
+      padding: 0.6rem 0.5rem 0 0;
+      figure {
+        height: 2.5rem;
+        img {
+          &.color {
+            display: block;
+          }
+          &.white {
+            display: none;
+          }
+        }
+      }
+    }
+    #navbar {
+      li {
+        a {
+          color: rgba(0, 0, 0, 0.5);
+          transition: 0.3s;
+          &:hover {
+            color: $brand-primary;
+          }
+        }
+        &.active {
+          a {
+            background: transparent;
+            background: none;
+            color: $brand-primary;
+            span {
+              &:before {
+                visibility: visible;
+                transform: scaleX(1);
+                background-color: $brand-primary;
+              }
             }
+          }
         }
+      }
     }
-    a {
-        transition: 0s;
+  }
+  .navbar-default {
+    border: transparent;
+    background: transparent;
+    border-radius: 0;
+    @media screen and (max-width: $screen-sm) {
+      margin-top: 0;
+      padding-right: 0;
+      padding-left: 0;
     }
+    .brand-slogan {
+      margin: 1.75rem 0 0 0.9375rem;
+      float: left;
+      letter-spacing: 0.125rem;
+      color: #adadad;
+      em {
+        color: $brand-primary;
+        font-style: normal;
+      }
+    }
+  }
+  a {
+    transition: 0s;
+  }
 }
