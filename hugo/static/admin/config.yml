@@ -75,5 +75,5 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Intro text", name: "intro", widget: "text"}
-      - {label: "Main image", name: "mainImage", widget: "Image"}
-      - {label: "Main content", name: "content", widget: "Markdown"}
+      - {label: "Main image", name: "mainImage", widget: "image"}
+      - {label: "Main content", name: "content", widget: "markdown"}
