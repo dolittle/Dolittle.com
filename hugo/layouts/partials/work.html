@@ -1,0 +1,27 @@
+{{- $articles := where .Site.RegularPages.ByWeight "Type" "article" -}} 
+{{ with $articles }}
+<section id="fh5co-work" data-section="work">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 section-heading text-center">
+        <h2 class="to-animate">Articles</h2>
+      </div>
+    </div>
+    <div class="row row-bottom-padded-sm">
+      {{range . }}
+      <div class="col-md-4 col-sm-6 col-xxs-12">
+        <a href="{{.Permalink}}" class="fh5co-project-itemto-animate">
+          <img src="{{ .Params.mainImage }}" alt="" class="img-responsive" />
+          <div class="fh5co-text">
+            <h2>{{ .Params.title }}</h2>
+            <span>{{ .Params.intro }}</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="clearfix visible-sm-block"></div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
