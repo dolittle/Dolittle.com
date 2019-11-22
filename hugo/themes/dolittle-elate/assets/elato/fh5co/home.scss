@@ -5,7 +5,9 @@
   background-position: center center;
   position: relative;
   width: 100%;
-
+  @media screen and (min-width: $screen-sm) {
+    background-size: 104%;
+  }
   background-color: $brand-primary;
   color: #fff;
   overflow: hidden;
@@ -27,7 +29,11 @@
   &,
   .text-wrap {
     height: 80vh;
+    min-height: 30rem;
     @media screen and (min-width: $screen-sm) {
+      height: 75vh;
+    }
+    @media screen and (min-width: $screen-md) {
       height: 70vh;
     }
   }

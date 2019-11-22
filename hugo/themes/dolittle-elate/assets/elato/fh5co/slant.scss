@@ -426,7 +426,7 @@
     background-image: repeating-linear-gradient(to bottom right, $color-brand-dark-blue 0%, $color-brand-orange 100%);
     a {
         color: rgba(255, 255, 255, 0.5);
-        text-decoration: underline;
+        text-decoration: none;
         &:hover {
             color: rgba(255, 255, 255, 1);
         }
