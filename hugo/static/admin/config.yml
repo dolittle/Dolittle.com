@@ -68,3 +68,12 @@ collections:
       - {label: "Title", name: "title", widget: "string" }
       - {label: "Last updates", name: "updated", widget: "date" }
       - {label: "Content", name: "content", widget: "markdown" }
+  - name: "article"
+    label: "Article"
+    folder: "hugo/contet/article"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Intro text", name: "intro", widget: "text"}
+      - {label: "Main image", name: "mainImage", widget: "Image"}
+      - {label: "Main content", name: "content", widget: "Markdown"}
